@@ -6,6 +6,12 @@ nav ul {
 nav li {
   text-decoration: none; }
 
+#upper-header img {
+  width: 5%;
+  float: right; }
+#upper-header p {
+  float: right; }
+
 /*# sourceMappingURL=style.css.map */
 
 /* List result */

@@ -1,8 +1,8 @@
 <header>
   <section id="upper-header">
     <p>United Kingdom</p>
-    <img src="images/services.png" alt="icon" id="grid"><p>Services</p>
-    <img src="images/user.png" alt="icon" id="user"><p>United Kingdom</p>
+    <img src="images/icon1.png" alt="icon" id="grid"><p>Services</p>
+    <img src="images/user.png" alt="icon" id="user"><p>Sign in</p>
 
     <img src="images/grundfoslogo.png" alt="logo" id="logo">
 <input type="search" name="search" value="search"><img src="images/search.png" alt="icon" id="search-icon">
