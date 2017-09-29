@@ -12,4 +12,22 @@ nav li {
 #upper-header p {
   float: right; }
 
+
+
+.gridguide {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: ;
+grid-column-gap: 7%;  
+
+
+}
+
+.gridguide h1 {
+  background-color:red;
+}
+
+
+
+
 /*# sourceMappingURL=style.css.map */
