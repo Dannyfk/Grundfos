@@ -1,11 +1,15 @@
 <header>
   <section id="upper-header">
-    <p>United Kingdom</p>
-    <img src="images/icon1.png" alt="icon" id="grid"><p>Services</p>
-    <img src="images/user.png" alt="icon" id="user"><p>Sign in</p>
-
     <img src="images/grundfoslogo.png" alt="logo" id="logo">
+    <p id="lang">United Kingdom</p>
+
+<ul>
+  <li><img src="images/icon1.png" alt="icon" id="grid"><p>Services</p></li>
+  <li><img src="images/user.png" alt="icon" id="user"><p>Sign in</p></li>
+</ul>
+
 <input type="search" name="search" value="search"><img src="images/search.png" alt="icon" id="search-icon">
+
   </section>
 <nav>
   <ul class="nav main-nav">
