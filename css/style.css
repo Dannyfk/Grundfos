@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -16,33 +15,33 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+  display: block; }
+
 body {
-	line-height: 1;
-}
+  line-height: 1; }
+
 ol, ul {
-	list-style: none;
-}
+  list-style: none; }
+
 blockquote, q {
-	quotes: none;
-}
+  quotes: none; }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
-}
-/*------------------CSS----------------*/
+  content: '';
+  content: none; }
+
+/*-----------------CSS start------------------*/
 nav ul {
   display: inline; }
 nav li {
@@ -52,11 +51,11 @@ nav li {
   background-color: #11497b;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr; }
+  grid-template-rows: 1fr 1fr 2fr; }
   #upper-header #logo {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2; }
+    grid-row-start: 3; }
   #upper-header #lang {
     grid-column-start: 6;
     grid-column-end: 7;
@@ -81,10 +80,22 @@ nav li {
       opacity: 0.8;
       float: left; }
   #upper-header input {
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 2; }
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    height: 70%;
+    width: 50%;
+    padding-left: 3%;
+    margin: auto;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #0068b4; }
   #upper-header #search-icon {
-    width: 5%; }
+    width: 12%;
+    margin: auto auto auto 10%;
+    height: 40%;
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 3; }
 
 /*# sourceMappingURL=style.css.map */
