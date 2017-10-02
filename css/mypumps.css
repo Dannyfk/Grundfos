@@ -1,5 +1,5 @@
 body {
-  margin:0;
+  margin: 0;
   padding: 0;
   background-color: #F5F5F5;
 }
@@ -26,8 +26,8 @@ body {
 
 #myPumpsWrapper #topbar {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 60px;
   border: solid 1px lightgrey;
@@ -37,10 +37,204 @@ body {
 }
 
 .productElement {
-  height: 300px;
+  height: 250px;
   width: 860px;
   margin-top: 40px;
   margin-left: 20px;
   border: solid 1px lightgrey;
   background-color: white;
+}
+
+.productElement .productbox {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 320px;
+  border-right: solid 1px lightgrey;
+}
+
+.rightinfo {
+  width: 50%;
+  height: 70%;
+  float: right;
+  position: relative;
+}
+
+.leftimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 70%;
+  background-image: url(../images/alpha1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bottominfo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  display: table-cell;
+    vertical-align: middle;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 140px;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.replacepump {
+  background-color: #11497b;
+  color: white;
+  font-size: 10px;
+}
+
+.removebtn {
+  background-color: #F5F5F5;
+  color: #333333;
+  font-size: 10px;
+}
+
+.rightinfo h3 {
+  font-family: myFirstFont;
+  font-size: 23px;
+  color: #333333;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.rightinfo p {
+  font-family: myFirstFont;
+  font-size: 14px;
+  color: grey;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.productElement .priceBox {
+  position: relative;
+  width: 250px;
+  height: 100%;
+  border-right: solid 1px lightgrey;
+  float: left;
+}
+
+.productElement .topbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: #DEDEDE;
+}
+
+.topbar h4 {
+  font-size: 10px;
+  color: #333333;
+  font-family: myFirstFont;
+  padding-left: 15px;
+}
+
+.priceBox .leftinfo {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.leftinfo h3 {
+  font-family: myFirstFont;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.availablebox {
+  margin-top: 10px;
+  margin-left: 0%;
+  width: 80%;
+  height: 20px;
+  background-color: #F5F5F5;
+  text-align: left;
+  font-family: myFirstFont;
+}
+
+
+.leftinfo h4 {
+  font-family: myFirstFont;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: -10px;
+}
+
+.productElement .materialBox {
+  position: relative;
+  width: 287px;
+  height: 100%;
+  border-right: solid 1px lightgrey;
+  float: right;
+}
+
+.materialBox .elementBox {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  text-align: center;
+}
+
+.elementBox .elementobject {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  display: inline-block;
+  border: solid 1px lightgrey;
+  background-color: #DEDEDE;
+}
+
+.viewmaterielbut {
+  font-family: myFirstFont;
+  background-color:#11497b;
+  color: white;
+}
+
+.availableTrue {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  margin-right: -10px;
+  float: right;
+  background-color: green;
+}
+
+.availableFalse {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  margin-right: -10px;
+  float: right;
+  background-color: red;
 }
