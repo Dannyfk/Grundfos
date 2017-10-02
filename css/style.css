@@ -6,43 +6,10 @@ nav ul {
 nav li {
   text-decoration: none; }
 
-#upper-header {
-  background-color: #11497b;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 2fr; }
-  #upper-header #logo {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2; }
-  #upper-header #lang {
-    grid-column-start: 6;
-    grid-column-end: 7;
-    color: white; }
-  #upper-header ul {
-    opacity: 0.8;
-    grid-column-start: 7;
-    grid-column-end: 9; }
-    #upper-header ul li {
-      text-decoration: none;
-      list-style-type: none;
-      width: 45%;
-      float: left; }
-      #upper-header ul li img {
-        width: 15%;
-        float: left; }
-    #upper-header ul p {
-      margin-top: -0.6%;
-      width: 55%;
-      margin-left: 2%;
-      color: white;
-      opacity: 0.8;
-      float: left; }
-  #upper-header input {
-    grid-column-start: 7;
-    grid-column-end: 8;
-    grid-row-start: 2; }
-  #upper-header #search-icon {
-    width: 5%; }
+#upper-header img {
+  width: 5%;
+  float: right; }
+#upper-header p {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */
