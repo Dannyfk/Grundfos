@@ -1,0 +1,46 @@
+body {
+  margin:0;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/GrundfosTheSansV2OT-2XL.otf);
+}
+
+@font-face {
+  font-family: titleFont;
+  src: url(../fonts/GrundfosTheSansV2OT-8XB.otf);
+}
+
+#myPumpsWrapper {
+  display: grid;
+  position: relative;
+  height: 100%;
+  width: 900px;
+  border: solid 1px lightgrey;
+  background-color: white;
+  padding: 60px 20px 40px 20px;
+}
+
+#myPumpsWrapper #topbar {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 60px;
+  border: solid 1px lightgrey;
+  background-color: #DEDEDE;
+  color: #333333;
+  font-family: titleFont;
+}
+
+.productElement {
+  height: 300px;
+  width: 860px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border: solid 1px lightgrey;
+  background-color: white;
+}
