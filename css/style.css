@@ -19,8 +19,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
+<<<<<<< HEAD
+ background-color: #F0F0F0; 
+ margin:0;
+ padding:0;
+ }
+=======
   line-height: 1;
 }
+>>>>>>> 93912fffb08a1f077262c5e09da1b0a52c31ac81
 
 ol, ul {
   list-style: none;

@@ -6,31 +6,16 @@
 <link rel="stylesheet" href="css/Guideline.css">
 
 
-
 <div class="wrapper">
 <h1> Material Guidelines </h1>
 
+<section class="selection">
+    <ul>
+        <li> Store <img src="images/store.png"> </li>
+        <li> Social Media <img src="images/social.png"> </li>
+        <li> Webshop <img src="images/webshop.png"> </li>
+    </ul>
 
-
-<section class="gridguide">
-    <div>
-        <h2> Store </h2>
-        <img src="images/store.png">
-        <p> Til jer   </p>
-    </div>
-    
-    <div>
-        <h2> Social Media </h2>
-        <img src="images/social.png">
-        <p> Til jer der gerne vil markedføre vores pumper på de sociale medier </p>
-    </div>
-
-    <div>
-        <h2> Webshop </h2>
-        <img src="images/webshop.png">
-        <p> Til jer med en webshop, der vil sælge online </p>
-    </div>
-    
 </section>
 
 </div>
