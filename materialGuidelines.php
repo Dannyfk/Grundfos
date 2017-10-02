@@ -2,7 +2,7 @@
 
 
 
-<div class="gridguide">
+<section class="gridguide">
     <div>
         <h2> Store </h2>
         <img src="images/icon1.png">
