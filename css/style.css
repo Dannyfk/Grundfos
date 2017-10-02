@@ -133,7 +133,7 @@ nav ul li a {
 }
   nav {
     padding: 1% 5% 2%;
-    border-bottom: 2px rgba(0,0,0,0.2) solid;
+    border-bottom: 1px rgba(0,0,0,0.2) solid;
     background-color:rgba(0,0,0,0.1) ;
   }
 
