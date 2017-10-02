@@ -25,7 +25,7 @@
         <a href="#">
         <h2> Social Media </h2>
         <img src="images/social.png">
-        <p> Hvordan i kan markedføre på de sociale medier </p>
+        <p> Hvordan i kan markedsføre på de sociale medier </p>
         </a>
     </div>
 

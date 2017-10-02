@@ -9,13 +9,13 @@
 <div class="wrapper">
 <h1> Material Guidelines </h1>
 
-    <ul class=selector>
+<section class="selection">
+    <ul>
         <li> Store <img src="images/store.png"> </li>
         <li> Social Media <img src="images/social.png"> </li>
         <li> Webshop <img src="images/webshop.png"> </li>
-
     </ul>
 
-
+</section>
 
 </div>

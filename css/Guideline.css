@@ -74,11 +74,22 @@ h1 {
   opacity: 0.5;
 }
 
-.selector ul {
-    display:inline;
+.selection {
+
 }
 
-.selector img {
+.selection ul  {
+    display:inline;
+    list-style:none;
+    display:table;
+    table-layout:fixed;
+}
+
+.selection ul li {
+    display:table cell;
+}
+
+.selection img {
     width:10%;
     height: auto;
 }
