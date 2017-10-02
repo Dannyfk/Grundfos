@@ -74,6 +74,9 @@ h1 {
   opacity: 0.5;
 }
 
+.selector ul {
+    display:inline;
+}
 
 .selector img {
     width:10%;
