@@ -1,0 +1,14 @@
+.wrapper {
+    width:100%;
+    
+}
+
+
+.gridguide {
+    width:80%;
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 5%;
+background-color:red;
+text-align: center;
+}
