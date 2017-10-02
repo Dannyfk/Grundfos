@@ -2,8 +2,9 @@
 
 .listresult {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: solid black 1px;
 }
 
 .listresultitem1 {
@@ -12,20 +13,31 @@
     grid-row-start: 1;
     grid-row-end: 3;
 
-    height: 250px;
+    height: 200px;
+  }
+
+.listresultitem15 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    height: 200px;
   }
 
 .listresultitem2 {
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 2;
-         
+    
+    border-left: solid black 1px;
+    
 }
 
 .listresultitem3 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
     
@@ -33,8 +45,8 @@
 }
 
 .listresultitem4 {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
     
@@ -47,10 +59,15 @@
 
 }
 
+.listresultimage {
+    width: 200px;
+}
+
 .listresultmaterialtypeheader {
     font-size: 1em;
     background-color: #dfdfdf;
-
+    margin-top: -1.4em;
+    width: 100%;
 }
 
 .listresultmaterialtypeicon {
@@ -69,10 +86,28 @@
     width: 200px;
     font-size: 0.8em;
     padding: 10px; 
+    height: 35px;
+}
+
+.listresultbuttoniconpump {
+    height: 30px;
+    margin-top: -1px;
+    float: right;
+}
+
+.listresultbuttonaddpump {
+    width: 200px;
+    background-color: #f5f5f6;
+    height: 35px;
 }
 
 .listresultbuttonicon {
     width: 20px;
     margin-right: 20px;
     margin-left: 0px;
+}
+
+.test {
+    text-align: center;
+
 }
