@@ -75,22 +75,29 @@ h1 {
 }
 
 .selection {
-text-align:center;
+    text-align:center;
+
 }
 
-.selection ul li {
+
+
+.selection h2 {
     display:inline;
-    float:left;
+    position:absolute;
+    
+
+
+}
+
+section ul li {
+    display:inline;
     padding: 15px;
 
-  
-  
 }
 
 .selection ul li {
 }
 
 .selection img {
-    width:100px;
-    height: auto;
+    width:20%;
 }
