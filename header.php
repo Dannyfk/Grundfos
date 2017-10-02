@@ -4,7 +4,7 @@
     <p id="lang">United Kingdom</p>
 
 <ul>
-  <li><img src="images/icon1.png" alt="icon" id="grid"><p>Services</p></li>
+  <li id="first"><img src="images/icon1.png" alt="icon" id="grid"><p>Services</p></li>
   <li><img src="images/user.png" alt="icon" id="user"><p>Sign in</p></li>
 </ul>
 
@@ -33,12 +33,6 @@
   									</li>
   								<li class="">
   										<a href="/how-to-buy.html" title="How to buy">How to buy</a>
-  									</li>
-  								<li class=" hidden-sm hidden-md hidden-lg">
-  										Grundfos Energy check
-  									</li>
-  								<li class=" hidden-sm hidden-md hidden-lg">
-  										<a href="/grundfos-for-installers.html" title="Grundfos for Installers">Grundfos for Installers</a>
   									</li>
   								</ul>
 </nav>
