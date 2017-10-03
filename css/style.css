@@ -58,17 +58,22 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #wrapper-content {
   clear: both;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr ;
+  margin: auto;
+  width: 100%;
 }
 
 #content {
-  background: rgba(255, 255, 255, 1.00);
-  width: 90%;
-  margin: 7% auto;
   grid-column-start: 2;
   grid-column-end: 3;
+  margin-top: 7%;
 }
-
+#main-content {
+  background: rgba(255, 255, 255, 1.00);
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
 
 /*----------------header-----------------*/
 #header-grundfos {
@@ -117,10 +122,11 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10%;
 }
 
-.aside {
+#aside {
   grid-column-start: 1;
   grid-column-end: 2;
-  padding: 3% 1% 0 26.5%;
+  margin: 5% auto;
+  width: 75%;
 }
 
 
