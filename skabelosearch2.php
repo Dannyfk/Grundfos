@@ -63,9 +63,9 @@
                 </div>
                 <div class="listresultmaterialtype">
                   <a href="...">
-                    <img class="listresultmaterialtypeicon" src="../Grundfos/images/materialtypes/webbannersicon.png">
+                    <img class="listresultmaterialtypeicon iconfalse" src="../Grundfos/images/materialtypes/webbannersicon.png">
                   </a>
-                  <h6 class="listresultmaterialtypetext">Webbaners</h6>
+                  <h6 class="listresultmaterialtypetext iconfalse">Webbaners</h6>
                 </div>
                 </div>
               </div>
@@ -79,3 +79,5 @@
     </section>
   </body>
 </html>
+
+
