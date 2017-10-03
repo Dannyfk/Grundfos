@@ -19,10 +19,11 @@
             </div>
           </div>
           <div class="listresultitem15">
-              <h4>ALPHA3<h4>
-              <p>Product nr.<p>
+              <h4 class="listresultproductname">ALPHA3<h4>
+              <p class="listresultproductnumber">Product nr.<p>
               <p>08059404836252<p>
               <button class="listresultbuttonaddpump">Add to my pumps<img class="listresultbuttoniconpump" src="../grundfos/images/addpumpicon.png"></button>
+              <p class="listresultproductupdate">Last updated: 13/9 2017<p>
           </div>
           <div class="listresultitem2">
             <div class="listresultmaterialtypeheader">
@@ -66,11 +67,12 @@
                   </a>
                   <h6 class="listresultmaterialtypetext">Webbaners</h6>
                 </div>
+                </div>
               </div>
+              <div class="listresultbuttonsection">
               <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="../grundfos/images/downloadzipicon.png">Download zip</button>
               <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="../grundfos/images/downloadzipicon.png">Download zip</button>
-            </div>
-          </div>
+              </div>
         </section>
       </section>
     </section>
