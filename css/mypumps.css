@@ -18,7 +18,7 @@ body {
   display: grid;
   position: relative;
   height: 100%;
-  width: 900px;
+  width: 800px;
   border: solid 1px lightgrey;
   background-color: white;
   padding: 60px 20px 40px 20px;
@@ -29,18 +29,23 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 50px;
   border: solid 1px lightgrey;
   background-color: #DEDEDE;
+}
+
+#topbar h1 {
   color: #333333;
-  font-family: titleFont;
+  font-family: myFirstFont;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
 .productElement {
   height: 250px;
-  width: 860px;
-  margin-top: 40px;
-  margin-left: 20px;
+  width: 95%;
+  margin-top: 20px;
+  margin-left: 2.5%;
   border: solid 1px lightgrey;
   background-color: white;
 }
@@ -49,7 +54,7 @@ body {
   position: relative;
   float: left;
   height: 100%;
-  width: 320px;
+  width: 40%;
   border-right: solid 1px lightgrey;
 }
 
@@ -66,9 +71,6 @@ body {
   left: 0;
   width: 50%;
   height: 70%;
-  background-image: url(../images/alpha1.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
 }
 
 .bottominfo {
@@ -79,7 +81,7 @@ body {
   width: 100%;
   text-align: center;
   display: table-cell;
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .btn {
@@ -87,7 +89,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 40px;
-  width: 140px;
+  width: 135px;
   padding: 10px;
   margin-top: 10px;
   border: none;
@@ -98,12 +100,14 @@ body {
   background-color: #11497b;
   color: white;
   font-size: 10px;
+  cursor:pointer;
 }
 
 .removebtn {
   background-color: #F5F5F5;
   color: #333333;
   font-size: 10px;
+  cursor:pointer;
 }
 
 .rightinfo h3 {
@@ -133,7 +137,7 @@ body {
 
 .productElement .priceBox {
   position: relative;
-  width: 250px;
+  width: 30%;
   height: 100%;
   border-right: solid 1px lightgrey;
   float: left;
@@ -159,14 +163,24 @@ body {
   position: absolute;
   top: 30px;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 50%;
+}
+
+.priceBox .amount {
+  position: absolute;
+  top: 50%;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
 }
 
 .leftinfo h3 {
   font-family: myFirstFont;
   font-size: 30px;
   text-align: left;
+  margin-top: 10px;
   margin-left: 20px;
 }
 
@@ -180,21 +194,21 @@ body {
   font-family: myFirstFont;
 }
 
-
 .leftinfo h4 {
   font-family: myFirstFont;
   font-size: 25px;
   text-align: left;
   margin-left: 40px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .productElement .materialBox {
   position: relative;
-  width: 287px;
+  width: 30%;
   height: 100%;
   border-right: solid 1px lightgrey;
   float: right;
+  margin-left: -3px;
 }
 
 .materialBox .elementBox {
@@ -217,8 +231,24 @@ body {
 
 .viewmaterielbut {
   font-family: myFirstFont;
-  background-color:#11497b;
+  background-color: #11497b;
   color: white;
+  cursor:pointer;
+}
+
+.amountbut {
+  width: 70px;
+  height: 40px;
+  background-color: #F5F5F5;
+  cursor:pointer;
+}
+
+.ordernowbut {
+  float: left;
+  margin-top: -10px;
+  margin-left: -10px;
+  height: 40px;
+  cursor:pointer;
 }
 
 .availableTrue {
