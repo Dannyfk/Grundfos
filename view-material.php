@@ -50,22 +50,18 @@ $("#images-content1").click(
   function() {
     $("#images-content2").toggleClass('borderblue');
   });
-
     $("#images-content3").click(
   function() {
     $("#images-content3").toggleClass('borderblue');
   });
-
     $("#images-content4").click(
   function() {
     $("#images-content4").toggleClass('borderblue');
   });
-
     $("#images-content5").click(
   function() {
     $("#images-content5").toggleClass('borderblue');
   });
-
     $("#images-content6").click(
   function() {
     $("#images-content6").toggleClass('borderblue');
