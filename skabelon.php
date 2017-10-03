@@ -12,7 +12,10 @@
     <section id="content" >
       <section id="main-content" >
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 962b00f6b5a61ef911d8740e6eccaea17d4da3c2
       </section>
     </section>
     </section>
