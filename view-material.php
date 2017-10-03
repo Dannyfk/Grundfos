@@ -60,6 +60,8 @@
           <p>Publications</p>
           <object data="files/1.pdf" type="application/pdf" id="pub-content1" class="bordergrey"></object>
           <object data="files/2.pdf" type="application/pdf" id="pub-content2" class="bordergrey"></object>
+          <p class="select-pub" id="pub-select1">select</p>
+          <p class="select-pub" id="pub-select2">select</p>
           <a href="files/1.pdf" target="_blank">Preview</a>
           <a href="files/2.pdf" target="_blank">Preview</a>
           <object data="files/3.pdf" type="application/pdf" id="pub-content3" class="bordergrey"></object>

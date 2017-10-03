@@ -75,11 +75,8 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   width: 800px;
   height: calc(100% + 40px);
   margin: auto;
-<<<<<<< HEAD
   margin-bottom: 4%;
   border: #d0d0d0 1px solid;
-=======
->>>>>>> e24751687d804cd37ba6c651b435b57d8fcd774b
 }
 
 
@@ -465,7 +462,7 @@ img:nth-child(17) {
   margin-top: 3%;
   cursor: pointer;
 }
-#tab-publications a {
+#tab-publications a, #tab-publications .select-pub {
   margin-left: 33px;
   height: 30px;
   width: 350px;
