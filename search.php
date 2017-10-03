@@ -16,7 +16,7 @@
   <input type="text" id="pumpinput" onkeyup="searchpump()" placeholder="Search for pump"> <img src="images/search-btn.png" class="search-btn" alt="btn">
 
         <ul id="pumpUL">
-          <li><?php include 'listsearchresult.php'; ?></li>
+          <li><?php include 'listsearchresult/listsearchresult1.php'; ?></li>
         </ul>
 </section>
     </section>
