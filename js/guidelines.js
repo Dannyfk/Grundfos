@@ -12,6 +12,7 @@ $("img").on('click',function(){
 $('img').click(function(){
     var aktiv = $(this).attr('data-id');
     $('img[data-id = '+aktiv+']').addClass('active1').siblings().removeClass("active1");
+    
 }); 
 });
 
