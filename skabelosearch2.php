@@ -71,7 +71,7 @@
               </div>
               <div class="listresultbuttonsection">
               <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="../grundfos/images/downloadzipicon.png"><p class="listresultbuttondownloadtext">DOWNLOAD ZIP<p></button>
-              <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="../grundfos/images/viewmaterialicon.png"><p class="listresultbuttondownloadtext">VIEW MATERIAL<p></button>
+              <a class="listresultbutton"><img class="listresultbuttonicon" src="../grundfos/images/viewmaterialicon.png"><p class="listresultbuttondownloadtext">VIEW MATERIAL<p></a>
               </div>
         </section>
       </section>

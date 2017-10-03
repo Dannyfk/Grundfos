@@ -5,7 +5,7 @@
             </div>
           </div>
           <div class="listresultitem15">
-              <h4 class="listresultproductname">ALPHA3<h4>
+              <h4 class="listresultproductname">ALPHA3-1<h4>
               <p class="listresultproductnumber">Product nr.<p>
               <p>08059404836252<p>
               <button class="listresultbuttonaddpump">Add to my pumps<img class="listresultbuttoniconpump" src="images/addpumpicon.png"></button>
