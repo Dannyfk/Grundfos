@@ -42,6 +42,7 @@ h1 {
     margin-bottom:0; 
     padding: 2%;
     font-size:1.5em;
+    background-color: #D3D3D3;
    
     
 }
@@ -76,6 +77,7 @@ h1 {
 
 .selection {
     text-align:center;
+    background-color:grey;
 
 }
 
@@ -85,12 +87,11 @@ h1 {
     display:inline;
     position:absolute;
     
-
-
 }
 
 section ul li {
-    display:inline;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 15px;
 
 }
@@ -99,5 +100,83 @@ section ul li {
 }
 
 .selection img {
-    width:20%;
+    width:10%;
+}
+
+.guides {
+    background-color:lightgrey;
+    border-top: 1.5px solid grey;
+}
+
+.guides div {
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color:lightgrey;
+    padding-top:3%;
+    overflow:hidden;
+    height: 0px;
+    transition: height 0.7s;
+    
+
+}
+
+.guides div p {
+     padding-top:3%;    
+}
+
+.guides img {
+    width: 70%;
+    padding-bottom:8%;
+}
+
+
+input {
+  display: none;
+  visibility: hidden;
+}
+
+label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  color: #666;
+}
+label:hover {
+  color: #000;
+}
+label::before {
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 15px;
+  content: "+";
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  background: radial-gradient(ellipse at center, #CCC 50%, transparent 50%);
+}
+
+
+#toggle1:checked ~ .expand1 {
+  height: 350px;
+}
+#toggle1:checked ~ label::before {
+  content: "-";
+}
+
+#toggle2:checked ~ .expand2 {
+  height: 350px;
+}
+#toggle2:checked ~ label::before {
+  content: "-";
+}
+
+#toggle3:checked ~ .expand3 {
+  height: 350px;
+}
+#toggle3:checked ~ label::before {
+  content: "-";
 }

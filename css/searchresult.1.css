@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    border: solid black 1px;
+    border: solid #d0d0d0 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -14,7 +14,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
 
-    height: 200px;
+    height: 150px;
   }
 
 .listresultitem15 {
@@ -23,7 +23,7 @@
     grid-row-start: 1;
     grid-row-end: 3;
 
-    height: 200px;
+    height: 150px;
   }
 
 .listresultitem2 {
@@ -32,7 +32,7 @@
     grid-row-start: 1;
     grid-row-end: 2;
     
-    border-left: solid black 1px;
+    border-left: solid #d0d0d0 1px;
     
 }
 
@@ -60,13 +60,13 @@
 
 .listresultmaterialtype {
     float: left;
-    margin: 2.5%;
+    margin: 1.9%;
     margin-top: 25px;
 
 }
 
 .listresultimage {
-    width: 150px;
+    width: 130px;
     padding-left: 20px;
     padding-top: 20px;
 }
@@ -78,7 +78,7 @@
 }
 
 .listresultmaterialtypeicon {
-    width: 50px;
+    width: 40px;
     text-align: center;
 }
 
@@ -91,10 +91,11 @@
     color: white;
     background-color: #00497d;
     border: 0px;
-    width: 200px;
+    width: 150px;
     font-size: 0.8em;
     padding: 10px; 
     height: 35px;
+    margin-top: 20px;
 }
 
 .listresultbuttoniconpump {
