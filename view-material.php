@@ -10,7 +10,7 @@
     <section id="wrapper-content">
     <?php include 'aside.php'; ?>
     <section id="content" >
-      <section id="main-content" >
+      <section id="main-content" class="view-material">
         <img src="images/alpha.jpg" alt="pumpe">
         <p class="product-nr">Product nr. 0087637392</p>
         <p class="Last-updated">Last updated 13/9.17</p>
