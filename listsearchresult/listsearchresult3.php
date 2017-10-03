@@ -56,7 +56,7 @@
       </div>
     </div>
     <div class="listresultbuttonsection">
-    <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="../images/downloadzipicon.png"><p class="listresultbuttondownloadtext">DOWNLOAD ZIP<p></button>
+    <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="images/downloadzipicon.png"><p class="listresultbuttondownloadtext">DOWNLOAD ZIP<p></button>
     <button class="listresultbutton" type="button" href="view-material.php"><img class="listresultbuttonicon" src="images/viewmaterialicon.png"><p class="listresultbuttondownloadtext">VIEW MATERIAL<p></button>
     </div>
 </section>
