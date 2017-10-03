@@ -14,8 +14,7 @@ body {
   src: url(../fonts/GrundfosTheSansV2OT-8XB.otf);
 }
 
-#myPumpsWrapper {
-  display: grid;
+.myPumpsWrapper {
   position: relative;
   height: 100%;
   width: 800px;
@@ -24,7 +23,7 @@ body {
   padding: 60px 20px 40px 20px;
 }
 
-#myPumpsWrapper #topbar {
+.myPumpsWrapper .topbar {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,7 +33,7 @@ body {
   background-color: #DEDEDE;
 }
 
-#topbar h1 {
+.topbar h1 {
   color: #333333;
   font-family: myFirstFont;
   font-size: 20px;
@@ -266,4 +265,77 @@ body {
   margin-right: -10px;
   float: right;
   background-color: red;
+}
+
+
+
+.recommendedObjects {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin: 15px 5px 5px 5px;
+  border: solid 1px lightgrey;
+}
+
+.recommendedObjects .img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  margin-top: -25%;
+}
+
+.recommendedObjects .titles {
+  position: absolute;
+  top:0;
+  right:0;
+  width:50%;
+  height:70%;
+  text-align: center;
+}
+
+.titles h2 {
+  margin-top: 40px;
+  font-family: titleFont;
+}
+
+.titles p {
+  font-family: myFirstFont;
+  text-align: left;
+  color: #333333;
+  margin-left: 10px;
+}
+
+.recommendedObjects .buttons {
+  position: absolute;
+  bottom: 0;
+  right:0;
+  width:50%;
+  height:30%;
+  text-align: center;
+}
+
+.buttons .viewproduct {
+  float:left;
+  width: 80%;
+  height: 30px;
+  font-family: myFirstFont;
+  background-color: #11497b;
+  color: white;
+  cursor:pointer;
+  border: none;
+}
+
+.buttons .addpump {
+  float:left;
+  width: 90%;
+  height: 30px;
+  font-family: myFirstFont;
+  background-color: #DEDEDE;
+  color: #333333;
+  cursor:pointer;
+  border: none;
+  margin-top: 5px;
 }
