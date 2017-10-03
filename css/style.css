@@ -72,9 +72,8 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #main-content {
   background: rgba(255, 255, 255, 1.00);
   width: 800px;
-  height: 100%;
+  height: calc(100% + 40px);
   margin: auto;
-  margin-bottom: 4%;
 }
 
 /*----------------header-----------------*/
