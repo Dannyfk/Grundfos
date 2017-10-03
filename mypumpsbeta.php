@@ -189,13 +189,10 @@
 
     </div>
   </div>
-</div>
+ </div>
+</figure>
 
-
-
-    </figure>
-
-    <figure class="myPumpsWrapper">
+    <figure class="recommendedWrapper">
       <div class="topbar">
         <h1>Recommended Pumps</h1>
       </div>

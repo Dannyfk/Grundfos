@@ -73,10 +73,13 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #main-content {
   background: rgba(255, 255, 255, 1.00);
   width: 800px;
-  height: 100%;
+  height: calc(100% + 40px);
   margin: auto;
+<<<<<<< HEAD
   margin-bottom: 4%;
   border: #d0d0d0 1px solid;
+=======
+>>>>>>> e24751687d804cd37ba6c651b435b57d8fcd774b
 }
 
 
