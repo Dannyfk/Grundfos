@@ -11,7 +11,6 @@
     <?php include 'aside.php'; ?>
     <section id="content" >
       <section id="main-content" >
-        <?php include 'mypumpsbeta.php' ?>
       </section>
     </section>
     </section>
