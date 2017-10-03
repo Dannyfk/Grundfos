@@ -55,14 +55,12 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 
 
 /*-----------------CSS start------------------*/
-
 #wrapper-content {
   clear: both;
   display: grid;
   grid-template-columns: 1fr 4fr;
   margin: auto;
   width: 100%;
-  height: calc(100% + 40px);
 }
 
 #content {
@@ -74,7 +72,7 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #main-content {
   background: rgba(255, 255, 255, 1.00);
   width: 800px;
-  height: calc(100% + 40px);
+  height: 100%;
   margin: auto;
   margin-bottom: 4%;
   border: #d0d0d0 1px solid;
@@ -469,7 +467,6 @@ img:nth-child(17) {
   width: 350px;
   float: left;
   margin-top: 1%;
-  margin-bottom: 2%;
   margin-right: 0;
   cursor: pointer;
   background-color: #11497b;
@@ -477,6 +474,13 @@ img:nth-child(17) {
   font-weight: normal;
   text-align: center;
   padding-top: 10px;
+  clear: none;
 }
 
 /*----webbanners tab-----*/
+#tab-webbanners img {
+  width: 80%;
+  margin:2% 0 0 10%;
+  float: left;
+  cursor: pointer;
+}

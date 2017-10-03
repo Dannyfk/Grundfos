@@ -66,16 +66,21 @@
           <a href="files/2.pdf" target="_blank">Preview</a>
           <object data="files/3.pdf" type="application/pdf" id="pub-content3" class="bordergrey"></object>
           <object data="files/4.pdf" type="application/pdf" id="pub-content4" class="bordergrey"></object>
+          <p class="select-pub" id="pub-select3">select</p>
+          <p class="select-pub" id="pub-select4">select</p>
           <a href="files/3.pdf" target="_blank">Preview</a>
           <a href="files/4.pdf" target="_blank">Preview</a>
           <object data="files/5.pdf" type="application/pdf" id="pub-content5" class="bordergrey"></object>
           <object data="files/6.pdf" type="application/pdf" id="pub-content6" class="bordergrey"></object>
+          <p class="select-pub" id="pub-select5">select</p>
+          <p class="select-pub" id="pub-select6">select</p>
           <a href="files/5.pdf" target="_blank">Preview</a>
           <a href="files/6.pdf" target="_blank">Preview</a>
             <button>Download</button>
           </section>
           <section id="tab-webbanners" class="opacity-null">
           <p>webbanners</p>
+          <img src="images/webbanner.jpg" alt="banner">
             <button>Download</button>
           </section>
     </section>
@@ -107,27 +112,27 @@ $("#images-content6").toggleClass('borderblue');
   });
 
 
-  $("#pub-content1").click(
+  $("#pub-select1").click(
       function() {
   $("#pub-content1").toggleClass('borderblue');
     });
-  $("#pub-content2").click(
+  $("#pub-select2").click(
       function() {
   $("#pub-content2").toggleClass('borderblue');
     });
-  $("#pub-content3").click(
+  $("#pub-select3").click(
       function() {
   $("#pub-content3").toggleClass('borderblue');
     });
-  $("#pub-content4").click(
+  $("#pub-select4").click(
     function() {
   $("#pub-content4").toggleClass('borderblue');
     });
-  $("#pub-content5").click(
+  $("#pub-select5").click(
       function() {
   $("#pub-content5").toggleClass('borderblue');
     });
-  $("#pub-content6").click(
+  $("#pub-select6").click(
       function() {
   $("#pub-content6").toggleClass('borderblue');
     });
