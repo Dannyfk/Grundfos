@@ -10,13 +10,9 @@
     <section id="wrapper-content">
     <?php include 'aside.php'; ?>
     <section id="content" >
-<<<<<<< HEAD
-=======
       <section id="main-content" >
-
-
+        <?php include 'mypumpsbeta.php' ?>
       </section>
->>>>>>> faa446b11ead26f7788254a860e04d51b5494cb8
     </section>
     </section>
   </body>
