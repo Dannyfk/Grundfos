@@ -24,10 +24,10 @@ include 'header.php';
     </div>
     <div class="listresultitem2">
       <div class="listresultmaterialtypeheader">
-        <h5>Marketing content<h5>
+        <h5 class="listresultmarketingcontent">Marketing content<h5>
       </div>
       <div class="test">
-        <div>
+        <div class="listresultmaterialtypesection">
           <div class="listresultmaterialtype">
             <a href="...">
               <img class="listresultmaterialtypeicon" src="../Grundfos/images/materialtypes/imagesicon.png">
