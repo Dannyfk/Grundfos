@@ -6,8 +6,8 @@
     <title>MyPumps | Grundfos3</title>
   </head>
   <body>
-    <figure id="myPumpsWrapper">
-      <div id="topbar">
+    <figure class="myPumpsWrapper">
+      <div class="topbar">
         <h1>MyPumps</h1>
       </div>
 <div class="productElement">
@@ -73,7 +73,7 @@
 
 <div class="productElement">
   <div class="productbox">
-    <img src="images/alpha1.png" class="leftimg" alt="">
+    <img src="images/alpha.png" class="leftimg" alt="">
     <div class="rightinfo">
       <h3>Alpha 1</h3>
       <p>Product nr. <br> 8832312534534</p>
@@ -134,7 +134,7 @@
 
 <div class="productElement">
   <div class="productbox">
-    <img src="images/alpha.png" class="leftimg" alt="">
+    <img src="images/alpha1.png" class="leftimg" alt="">
     <div class="rightinfo">
       <h3>CMB-PM1</h3>
       <p>Product nr. <br> 1232334534534</p>
@@ -194,5 +194,50 @@
 
 
     </figure>
+
+    <figure class="myPumpsWrapper">
+      <div class="topbar">
+        <h1>Recommended Pumps</h1>
+      </div>
+
+      <div class="recommendedObjects">
+        <img src="images/magna3.png" class="img" alt="">
+        <div class="titles">
+          <h2>Magna 2</h2>
+          <p>Product nr. <br> 123409138123</p>
+        </div>
+        <div class="buttons">
+          <button type="button" class="viewproduct" name="button">View product</button>
+          <button type="button" class="addpump" name="button">Add to MyPumps</button>
+        </div>
+      </div>
+
+      <div class="recommendedObjects">
+        <img src="images/alpha.png" class="img" alt="">
+        <div class="titles">
+          <h2>Alpha 3</h2>
+          <p>Product nr. <br> 883405338123</p>
+        </div>
+        <div class="buttons">
+          <button type="button" class="viewproduct" name="button">View product</button>
+          <button type="button" class="addpump" name="button">Add to MyPumps</button>
+        </div>
+      </div>
+
+      <div class="recommendedObjects">
+        <img src="images/alpha1.png" class="img" alt="">
+        <div class="titles">
+          <h2>CMB-PM2</h2>
+          <p>Product nr. <br> 673909138123</p>
+        </div>
+        <div class="buttons">
+          <button type="button" class="viewproduct" name="button">View product</button>
+          <button type="button" class="addpump" name="button">Add to MyPumps</button>
+        </div>
+      </div>
+
+    </figure>
+
+
   </body>
 </html>
