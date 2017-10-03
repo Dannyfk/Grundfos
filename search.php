@@ -13,34 +13,33 @@
     <?php include 'aside.php'; ?>
     <section id="content" >
       <section id="main-content" class="search-for-pump">
-<input type="text" id="pumpInput" onkeyup="searchpump()" placeholder="Search for pump" title="Type in a pump">
-<ul>
-  <li><?php include 'skabelosearch2.php'; ?></li>
-  <li><?php include 'skabelosearch2.php'; ?></li>
-  <li><?php include 'skabelosearch2.php'; ?></li>
-  <li><?php include 'skabelosearch2.php'; ?></li>
-  <li><?php include 'skabelosearch2.php'; ?></li>
-</ul>
+  <input type="text" id="pumpinput" onkeyup="searchpump()" placeholder="Search for pump"> <img src="images/search-btn.png" class="search-btn" alt="btn">
+
+        <ul id="pumpUL">
+          <li><?php include 'listsearchresult.php'; ?></li>
+        </ul>
 </section>
     </section>
     </section>
-    <script type="text/javascript">
+    <script>
     function searchpump() {
-  var input, filter, ul, li, h4, i;
-  input = document.getElementById("pumpInput");
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("ul-pumps");
-  li = ul.getElementsByTagName("li");
-  for (i = 0; i < li.length; i++) {
-      h4 = li[i].getElementsByTagName("h4")[0];
-      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-      } else {
-          li[i].style.display = "none";
+        // Declare variables
+        var input, filter, ul, li, a, i;
+        input = document.getElementById('pumpinput');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("pumpUL");
+        li = ul.getElementsByTagName('li');
 
-      }
-  }
-}
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("h4")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
     </script>
   </body>
 </html>
