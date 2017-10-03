@@ -10,7 +10,6 @@
     <section id="wrapper-content">
     <section class="aside"> <?php include 'aside.php'; ?> </section>
     <section id="content" >
-
     </section>
     </section>
   </body>
