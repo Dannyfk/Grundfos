@@ -6,10 +6,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
-    <?php include 'header.php'; ?>
+    <img src="images/header.png" alt="header" id="header-grundfos">
     <section id="wrapper-content">
     <section class="aside"> <?php include 'aside.php'; ?> </section>
-    <section id="content" class="view-material">	
+    <section id="content" class="view-material">
     	<img src="images/alpha.jpg" alt="pumpe">
     	<p class="product-nr">Product nr. 0087637392</p>
     	<p class="Last-updated">Last updated 13/9.17</p>
@@ -49,29 +49,29 @@ $("#images-content1").click(
   function() {
     $("#images-content2").toggleClass('borderblue');
   });
-		
+
 		$("#images-content3").click(
   function() {
     $("#images-content3").toggleClass('borderblue');
   });
-		
+
 		$("#images-content4").click(
   function() {
     $("#images-content4").toggleClass('borderblue');
   });
-		
+
 		$("#images-content5").click(
   function() {
     $("#images-content5").toggleClass('borderblue');
   });
-		
+
 		$("#images-content6").click(
   function() {
     $("#images-content6").toggleClass('borderblue');
   });
-		
-	
-		
+
+
+
 </script>
   </body>
 </html>
