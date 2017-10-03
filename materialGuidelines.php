@@ -18,4 +18,53 @@
 
 </section>
 
+<section class="guides">
+
+ <input id="toggle1" type="checkbox" unchecked>
+  <label for="toggle1">Images</label>
+
+    <div class="expand1">
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
+        <img src="images/store.png">
+        <img src="images/social.png">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
+        <img src="images/store.png">
+        <img src="images/social.png">
+
+    </div>
+
+<input id="toggle2" type="checkbox" unchecked>
+  <label for="toggle2">Videos</label>
+
+    <div class="expand2">
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
+        <img src="images/store.png">
+        <img src="images/social.png">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
+        <img src="images/store.png">
+        <img src="images/social.png">
+
+    </div>
+
+    <input id="toggle3" type="checkbox" unchecked>
+  <label for="toggle3">Banners</label>
+
+    <div class="expand3">
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
+        <img src="images/store.png">
+        <img src="images/social.png">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
+        <img src="images/store.png">
+        <img src="images/social.png">
+
+    </div>
+
+    
+
+
+</section>
+
 </div>
