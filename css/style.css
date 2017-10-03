@@ -464,7 +464,7 @@ img:nth-child(17) {
   margin-top: 3%;
   cursor: pointer;
 }
-#tab-publications a {
+#tab-publications a, #tab-publications .select-pub {
   margin-left: 33px;
   height: 30px;
   width: 350px;
