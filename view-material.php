@@ -16,19 +16,20 @@
         <p class="Last-updated">Last updated 13/9.17</p>
         <button><p>Add to MyPumps</p><img src="images/addpumpicon.png" alt="lock"></button>
           <a href="">Link to technical specifications</a>
-          <p class="material-tab">Images</p>
-          <p class="material-tab">Film</p>
-          <p class="material-tab">Casestory</p>
-          <p class="material-tab">Selling ponits</p>
-          <p class="material-tab">Publications</p>
-          <p class="material-tab">Webbanners</p>
-          <img src="images/materialtypes/imagesicon.png" alt="icon">
-          <img src="images/materialtypes/videosicon.png" alt="icon">
-          <img src="images/materialtypes/casestoriesicon.png" alt="icon">
-          <img src="images/materialtypes/sellingpointsicon.png" alt="icon">
-          <img src="images/materialtypes/publicationsicon.png" alt="icon">
-          <img src="images/materialtypes/webbannersicon.png" alt="icon">
-          <section id="tab-images">
+          <p id="image-tab" class="material-tab tab-active">Images</p>
+          <p id="film-tab" class="material-tab tab-nonactive">Film</p>
+          <p id="casestory-tab" class="material-tab tab-nonactive">Casestory</p>
+          <p id="sellingpoints-tab" class="material-tab tab-nonactive">Selling ponits</p>
+          <p id="publications-tab" class="material-tab tab-nonactive">Publications</p>
+          <p id="webbanners-tab" class="material-tab tab-nonactive">Webbanners</p>
+          <img src="images/materialtypes/imagesicon.png" alt="icon" id="image-tab1">
+          <img src="images/materialtypes/videosicon.png" alt="icon" id="film-tab1">
+          <img src="images/materialtypes/casestoriesicon.png" alt="icon" id="casestory-tab1">
+          <img src="images/materialtypes/sellingpointsicon.png" alt="icon" id="sellingpoints-tab1">
+          <img src="images/materialtypes/publicationsicon.png" alt="icon" id="publications-tab1">
+          <img src="images/materialtypes/webbannersicon.png" alt="icon" id="webbanners-tab1">
+
+          <section id="tab-images" class="opacity-one">
           <p>Print</p>
             <img src="images/alpha.jpg" alt="pummp" id="images-content1" class="bordergrey">
             <img src="images/alpha.jpg" alt="pummp" id="images-content2" class="bordergrey">
@@ -38,34 +39,130 @@
             <img src="images/alpha.jpg" alt="pummp" id="images-content5" class="bordergrey">
             <img src="images/alpha.jpg" alt="pummp" id="images-content6" class="bordergrey">
             <button>Download</button>
-      </section>
+          </section>
+          <section id="tab-film" class="opacity-null">
+          <p>Film</p>
+          <iframe width="550" height="305" src="https://www.youtube.com/embed/Pv9j-h54wGA" frameborder="0" allowfullscreen></iframe>
+            <button>Download</button>
+          </section>
+          <section id="tab-casestory" class="opacity-null">
+          <p>Casestory</p>
+          <object data="files/alpha.pdf" type="application/pdf">
+             </object>
+            <button>Preview</button>
+            <button>Download</button>
+          </section>
+          <section id="tab-sellingpoints" class="opacity-null">
+          <p>Sellingpoints</p>
+            <button>Download</button>
+          </section>
+          <section id="tab-publications" class="opacity-null">
+          <p>Publications</p>
+            <button>Download</button>
+          </section>
+          <section id="tab-webbanners" class="opacity-null">
+          <p>webbanners</p>
+            <button>Download</button>
+          </section>
     </section>
     </section>
     <script>
 $("#images-content1").click(
   function() {
-    $("#images-content1").toggleClass('borderblue');
+$("#images-content1").toggleClass('borderblue');
   });
-    $("#images-content2").click(
+$("#images-content2").click(
   function() {
-    $("#images-content2").toggleClass('borderblue');
+$("#images-content2").toggleClass('borderblue');
   });
-    $("#images-content3").click(
+$("#images-content3").click(
   function() {
-    $("#images-content3").toggleClass('borderblue');
+$("#images-content3").toggleClass('borderblue');
   });
-    $("#images-content4").click(
+$("#images-content4").click(
   function() {
-    $("#images-content4").toggleClass('borderblue');
+$("#images-content4").toggleClass('borderblue');
   });
-    $("#images-content5").click(
+$("#images-content5").click(
   function() {
-    $("#images-content5").toggleClass('borderblue');
+$("#images-content5").toggleClass('borderblue');
   });
-    $("#images-content6").click(
+$("#images-content6").click(
   function() {
-    $("#images-content6").toggleClass('borderblue');
+$("#images-content6").toggleClass('borderblue');
   });
+
+$("#image-tab, #image-tab1").click(
+    function() {
+$("#tab-images").addClass('opacity-one');
+$("#tab-images").removeClass('opacity-null');
+$("#tab-film, #tab-casestory, #tab-webbanners, #tab-publications, #tab-sellingpoints").removeClass('opacity-one');
+$("#tab-film, #tab-casestory, #tab-webbanners, #tab-publications, #tab-sellingpoints").addClass('opacity-null');
+$("#image-tab").addClass('tab-active');
+$("#image-tab").removeClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #webbanners-tab, #publications-tab, #sellingpoints-tab").addClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #webbanners-tab, #publications-tab, #sellingpoints-tab").removeClass('tab-active');
+});
+
+$("#film-tab, #film-tab1").click(
+    function() {
+$("#tab-film").addClass('opacity-one');
+$("#tab-film").removeClass('opacity-null');
+$("#tab-images, #tab-casestory, #tab-webbanners, #tab-publications, #tab-sellingpoints").removeClass('opacity-one');
+$("#tab-images, #tab-casestory, #tab-webbanners, #tab-publications, #tab-sellingpoints").addClass('opacity-null');
+$("#film-tab").addClass('tab-active');
+$("#film-tab").removeClass('tab-nonactive');
+$("#image-tab, #casestory-tab, #webbanners-tab, #publications-tab, #sellingpoints-tab").addClass('tab-nonactive');
+$("#image-tab, #casestory-tab, #webbanners-tab, #publications-tab, #sellingpoints-tab").removeClass('tab-active');
+});
+
+$("#casestory-tab, #casestory-tab1").click(
+    function() {
+$("#tab-casestory").addClass('opacity-one');
+$("#tab-casestory").removeClass('opacity-null');
+$("#tab-film, #tab-images, #tab-webbanners, #tab-publications, #tab-sellingpoints").removeClass('opacity-one');
+$("#tab-film, #tab-images, #tab-webbanners, #tab-publications, #tab-sellingpoints").addClass('opacity-null');
+$("#casestory-tab").addClass('tab-active');
+$("#casestory-tab").removeClass('tab-nonactive');
+$("#film-tab, #image-tab, #webbanners-tab, #publications-tab, #sellingpoints-tab").addClass('tab-nonactive');
+$("#film-tab, #image-tab, #webbanners-tab, #publications-tab, #sellingpoints-tab").removeClass('tab-active');
+});
+
+$("#webbanners-tab, #webbanners-tab1").click(
+    function() {
+$("#tab-webbanners").addClass('opacity-one');
+$("#tab-webbanners").removeClass('opacity-null');
+$("#tab-film, #tab-casestory, #tab-images, #tab-publications, #tab-sellingpoints").removeClass('opacity-one');
+$("#tab-film, #tab-casestory, #tab-images, #tab-publications, #tab-sellingpoints").addClass('opacity-null');
+$("#webbanners-tab").addClass('tab-active');
+$("#webbanners-tab").removeClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #image-tab, #publications-tab, #sellingpoints-tab").addClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #image-tab, #publications-tab, #sellingpoints-tab").removeClass('tab-active');
+});
+
+$("#publications-tab, #publications-tab1").click(
+    function() {
+$("#tab-publications").addClass('opacity-one');
+$("#tab-publications").removeClass('opacity-null');
+$("#tab-film, #tab-casestory, #tab-webbanners, #tab-images, #tab-sellingpoints").removeClass('opacity-one');
+$("#tab-film, #tab-casestory, #tab-webbanners, #tab-images, #tab-sellingpoints").addClass('opacity-null');
+$("#publications-tab").addClass('tab-active');
+$("#publications-tab").removeClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #webbanners-tab, #image-tab, #sellingpoints-tab").addClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #webbanners-tab, #image-tab, #sellingpoints-tab").removeClass('tab-active');
+});
+
+$("#sellingpoints-tab, #sellingpoints-tab1").click(
+    function() {
+$("#tab-sellingpoints").addClass('opacity-one');
+$("#tab-sellingpoints").removeClass('opacity-null');
+$("#tab-film, #tab-casestory, #tab-webbanners, #tab-publications, #tab-images").removeClass('opacity-one');
+$("#tab-film, #tab-casestory, #tab-webbanners, #tab-publications, #tab-images").addClass('opacity-null');
+$("#sellingpoints-tab").addClass('tab-active');
+$("#sellingpoints-tab").removeClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #webbanners-tab, #publications-tab, #image-tab").addClass('tab-nonactive');
+$("#film-tab, #casestory-tab, #webbanners-tab, #publications-tab, #image-tab").removeClass('tab-active');
+    });
 </script>
   </body>
 </html>

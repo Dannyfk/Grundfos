@@ -71,7 +71,7 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #main-content {
   background: rgba(255, 255, 255, 1.00);
   width: 800px;
-  height: auto;
+  height: 100%;
   margin: auto;
   margin-bottom: 4%;
 }
@@ -135,9 +135,9 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 
 .view-material {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 133px 133px 133px 133px 133px 133px;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  width: 100%;
+  width: 800px;
 }
 
 .view-material img {
@@ -213,11 +213,11 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 
 .material-tab {
   text-align: center;
-  background-color: #f5f5f5;
-  border: #d0d0d0 1px solid;
   padding-top: 45px;
   height: 30px;
   font-size: 13px;
+  width: 133px;
+  cursor: pointer;
 }
 
 .material-tab:nth-child(6) {
@@ -270,6 +270,7 @@ img:nth-child(12) {
   width: 30px;
   margin-top: 9px;
   margin-left:51.5px;
+  cursor: pointer;
 }
 
 img:nth-child(13) {
@@ -280,6 +281,7 @@ img:nth-child(13) {
   width: 30px;
   margin-top: 9px;
   margin-left:51.5px;
+  cursor: pointer;
 }
 
 img:nth-child(14) {
@@ -290,6 +292,7 @@ img:nth-child(14) {
   width: 30px;
   margin-top: 9px;
   margin-left:51.5px;
+  cursor: pointer;
 }
 
 img:nth-child(15) {
@@ -299,7 +302,8 @@ img:nth-child(15) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;;
+  margin-left:51.5px;
+  cursor: pointer;
 }
 
 img:nth-child(16) {
@@ -310,6 +314,7 @@ img:nth-child(16) {
   width: 30px;
   margin-top: 9px;
   margin-left:51.5px;
+  cursor: pointer;
 }
 
 img:nth-child(17) {
@@ -320,45 +325,90 @@ img:nth-child(17) {
   width: 30px;
   margin-top: 9px;
   margin-left:51.5px;
+  cursor: pointer;
 }
-                      /*----Image tab-----*/
-#tab-images {
+            /*-----------Global for tabs----------*/
+.opacity-null {
+  opacity: 0;
+  z-index: -1;
+}
+.opacity-one {
+  opacity: 1;
+}
+#tab-images, #tab-film, #tab-casestory, #tab-publications, #tab-webbanners, #tab-sellingpoints {
   margin-top: -10%;
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 5;
+  transition: 1s;
 }
-
-#tab-images img {
-  width: 25%;
-  margin: 3.5%;
-  float: left;
+.tab-active {
+  background-color: #fff;
+  border: #d0d0d0 1px solid;
+  border-bottom: none;
 }
-
+.tab-nonactive {
+  background-color: #f5f5f5;
+  border: #d0d0d0 1px solid;
+}
 .bordergrey {
   border: #d0d0d0 5px solid;
 }
-
 .borderblue {
   border: #11497b 5px solid;
 }
-
-#tab-images p {
+#tab-images button, #tab-film button, #tab-webbanners button, #tab-publications button, #tab-sellingpoints button {
+  width: 15%;
+  background-color: #11497b;
+  color: white;
+  margin-right: 42.5%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+#tab-images button:active, #tab-film button:active, #tab-webbanners button:active, #tab-publications button:active, #tab-sellingpoints button:active {
+  background-color: #030753;
+  color: white;
+}
+#tab-images p, #tab-film p, #tab-casestory p, #tab-webbanners p, #tab-publications p, #tab-sellingpoints p {
   clear: both;
   font-size: 1.2em;
   font-weight: bold;
   margin-left: 2%;
 }
 
-#tab-images button {
-  width: 15%;
-  background-color: #11497b;
-  color: white;
-  margin-right: 42.5%;
-  margin-bottom: 5%;
+            /*----Image tab-----*/
+#tab-images img {
+  width: 25%;
+  margin: 3.5%;
+  float: left;
+  cursor: pointer;
 }
+           /*----film tab-----*/
+#tab-film iframe {
+  margin-top: 30px;
+  margin-left:125px;
+}
+           /*----casestory tab-----*/
+#tab-casestory img {
+   margin-left:42.5%;
+   width: 15%;
+   float: left;
+   margin-bottom: 2%;
+   cursor: pointer;
+}
+#tab-casestory button {
+   margin-top: 0;
+   margin-left:42.5%;
+   width: 15%;
+   margin-bottom: 2%;
+   float: left;
+   clear: both;
+   background-color: #11497b;
+   color: white;
+   cursor: pointer;
+}
+           /*----sellingpoints tab-----*/
 
-#tab-images button:active {
-  background-color: #030753;
-  color: white;
-}
+           /*----publications tab-----*/
+
+           /*----webbanners tab-----*/
