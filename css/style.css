@@ -517,3 +517,6 @@ img:nth-child(17) {
   min-height: 42px;
   border: #d0d0d0 1px solid
 }
+.display-none {
+  display: none;
+}
