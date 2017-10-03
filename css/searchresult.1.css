@@ -160,11 +160,17 @@
     padding-top: 8px;
 }
 
+.listresultbuttondownloadtext {
+    float: right;
+    margin-top: -17px;
+}
+
 .listresultbuttonicon {
     width: 20px;
     margin-right: 20px;
     margin-left: 0px;
     padding-top: 5px;
+    float: left;
 }
 
 .listresultmarketingcontent {

@@ -1,18 +1,4 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/searchresult.1.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <img src="images/header.png" alt="header" id="header-grundfos">
-    <section id="wrapper-content">
-    <?php include 'aside.php'; ?>
-    <section id="content" >
-      <section id="main-content" >
-        <section class="listresult">
+<section class="listresult">
           <div class="listresultitem1">
             <div>
               <img class="listresultimage" src="../Grundfos/images/magna3stor.jpg">
@@ -74,10 +60,3 @@
               <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="../grundfos/images/viewmaterialicon.png"><p class="listresultbuttondownloadtext">VIEW MATERIAL<p></button>
               </div>
         </section>
-      </section>
-    </section>
-    </section>
-  </body>
-</html>
-
-
