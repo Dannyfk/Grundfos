@@ -49,15 +49,27 @@
           <p>Casestory</p>
           <object data="files/alpha.pdf" type="application/pdf">
              </object>
-            <button>Preview</button>
             <button>Download</button>
           </section>
           <section id="tab-sellingpoints" class="opacity-null">
           <p>Sellingpoints</p>
+          <object data="files/selling.pdf" type="application/pdf"></object>
             <button>Download</button>
           </section>
           <section id="tab-publications" class="opacity-null">
           <p>Publications</p>
+          <object data="files/1.pdf" type="application/pdf" id="pub-content1" class="bordergrey"></object>
+          <object data="files/2.pdf" type="application/pdf" id="pub-content2" class="bordergrey"></object>
+          <a href="files/1.pdf" target="_blank">Preview</a>
+          <a href="files/2.pdf" target="_blank">Preview</a>
+          <object data="files/3.pdf" type="application/pdf" id="pub-content3" class="bordergrey"></object>
+          <object data="files/4.pdf" type="application/pdf" id="pub-content4" class="bordergrey"></object>
+          <a href="files/3.pdf" target="_blank">Preview</a>
+          <a href="files/4.pdf" target="_blank">Preview</a>
+          <object data="files/5.pdf" type="application/pdf" id="pub-content5" class="bordergrey"></object>
+          <object data="files/6.pdf" type="application/pdf" id="pub-content6" class="bordergrey"></object>
+          <a href="files/5.pdf" target="_blank">Preview</a>
+          <a href="files/6.pdf" target="_blank">Preview</a>
             <button>Download</button>
           </section>
           <section id="tab-webbanners" class="opacity-null">
@@ -91,6 +103,33 @@ $("#images-content6").click(
   function() {
 $("#images-content6").toggleClass('borderblue');
   });
+
+
+  $("#pub-content1").click(
+      function() {
+  $("#pub-content1").toggleClass('borderblue');
+    });
+  $("#pub-content2").click(
+      function() {
+  $("#pub-content2").toggleClass('borderblue');
+    });
+  $("#pub-content3").click(
+      function() {
+  $("#pub-content3").toggleClass('borderblue');
+    });
+  $("#pub-content4").click(
+    function() {
+  $("#pub-content4").toggleClass('borderblue');
+    });
+  $("#pub-content5").click(
+      function() {
+  $("#pub-content5").toggleClass('borderblue');
+    });
+  $("#pub-content6").click(
+      function() {
+  $("#pub-content6").toggleClass('borderblue');
+    });
+
 
 $("#image-tab, #image-tab1").click(
     function() {
