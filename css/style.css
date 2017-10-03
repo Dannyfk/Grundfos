@@ -59,7 +59,7 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #wrapper-content {
   clear: both;
   display: grid;
-  grid-template-columns: 1fr 4fr ;
+  grid-template-columns: 1fr 4fr;
   margin: auto;
   width: 100%;
 }
@@ -69,19 +69,25 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   grid-column-end: 3;
   margin-top: 7%;
 }
+
 #main-content {
   background: rgba(255, 255, 255, 1.00);
   width: 800px;
   height: 100%;
   margin: auto;
   margin-bottom: 4%;
+  border: #d0d0d0 1px solid;
 }
 
+
 /*----------------header-----------------*/
+
 #header-grundfos {
   width: 100%;
   height: auto;
 }
+
+
 /*----------------aside-----------------*/
 
 #aside p {
@@ -270,7 +276,7 @@ img:nth-child(12) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;
+  margin-left: 51.5px;
   cursor: pointer;
 }
 
@@ -281,7 +287,7 @@ img:nth-child(13) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;
+  margin-left: 51.5px;
   cursor: pointer;
 }
 
@@ -292,7 +298,7 @@ img:nth-child(14) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;
+  margin-left: 51.5px;
   cursor: pointer;
 }
 
@@ -303,7 +309,7 @@ img:nth-child(15) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;
+  margin-left: 51.5px;
   cursor: pointer;
 }
 
@@ -314,7 +320,7 @@ img:nth-child(16) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;
+  margin-left: 51.5px;
   cursor: pointer;
 }
 
@@ -325,17 +331,24 @@ img:nth-child(17) {
   grid-row-end: 4;
   width: 30px;
   margin-top: 9px;
-  margin-left:51.5px;
+  margin-left: 51.5px;
   cursor: pointer;
 }
-            /*-----------Global for tabs----------*/
+
+
+/*-----------Global for tabs----------*/
+
 .opacity-null {
   opacity: 0;
   z-index: -1;
+  height: 0;
 }
+
 .opacity-one {
   opacity: 1;
+  height: 100%;
 }
+
 #tab-images, #tab-film, #tab-casestory, #tab-publications, #tab-webbanners, #tab-sellingpoints {
   margin-top: -10%;
   grid-column-start: 1;
@@ -343,21 +356,26 @@ img:nth-child(17) {
   grid-row-start: 5;
   transition: 1s;
 }
+
 .tab-active {
   background-color: #fff;
   border: #d0d0d0 1px solid;
   border-bottom: none;
 }
+
 .tab-nonactive {
   background-color: #f5f5f5;
   border: #d0d0d0 1px solid;
 }
+
 .bordergrey {
   border: #d0d0d0 5px solid;
 }
+
 .borderblue {
   border: #11497b 5px solid;
 }
+
 #tab-images button, #tab-film button, #tab-webbanners button, #tab-publications button, #tab-sellingpoints button {
   width: 15%;
   background-color: #11497b;
@@ -366,10 +384,12 @@ img:nth-child(17) {
   margin-bottom: 5%;
   cursor: pointer;
 }
+
 #tab-images button:active, #tab-film button:active, #tab-webbanners button:active, #tab-publications button:active, #tab-sellingpoints button:active {
   background-color: #030753;
   color: white;
 }
+
 #tab-images p, #tab-film p, #tab-casestory p, #tab-webbanners p, #tab-publications p, #tab-sellingpoints p {
   clear: both;
   font-size: 1.2em;
@@ -377,39 +397,85 @@ img:nth-child(17) {
   margin-left: 2%;
 }
 
-            /*----Image tab-----*/
+
+/*----Image tab-----*/
+
 #tab-images img {
   width: 25%;
   margin: 3.5%;
   float: left;
   cursor: pointer;
 }
-           /*----film tab-----*/
+
+
+/*----film tab-----*/
+
 #tab-film iframe {
   margin-top: 30px;
-  margin-left:125px;
+  margin-left: 125px;
 }
-           /*----casestory tab-----*/
-#tab-casestory img {
-   margin-left:42.5%;
-   width: 15%;
-   float: left;
-   margin-bottom: 2%;
-   cursor: pointer;
+
+
+/*----casestory tab-----*/
+
+#tab-casestory object {
+  margin-left: 10%;
+  height: 500px;
+  width: 80%;
+  float: left;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  cursor: pointer;
 }
+
 #tab-casestory button {
-   margin-top: 0;
-   margin-left:42.5%;
-   width: 15%;
-   margin-bottom: 2%;
-   float: left;
-   clear: both;
-   background-color: #11497b;
-   color: white;
-   cursor: pointer;
+  margin-top: 0;
+  margin-left: 42.5%;
+  width: 15%;
+  margin-bottom: 2%;
+  float: left;
+  clear: both;
+  background-color: #11497b;
+  color: white;
+  cursor: pointer;
 }
-           /*----sellingpoints tab-----*/
 
-           /*----publications tab-----*/
 
-           /*----webbanners tab-----*/
+/*----sellingpoints tab-----*/
+#tab-sellingpoints object {
+  margin-left: 10%;
+  height: 500px;
+  width: 80%;
+  float: left;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+
+/*----publications tab-----*/
+#tab-publications object {
+  margin-left: 26px;
+  height: 300px;
+  width: 350px;
+  float: left;
+  margin-top: 3%;
+  cursor: pointer;
+}
+#tab-publications a {
+  margin-left: 33px;
+  height: 30px;
+  width: 350px;
+  float: left;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  margin-right: 0;
+  cursor: pointer;
+  background-color: #11497b;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*----webbanners tab-----*/
