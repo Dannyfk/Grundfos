@@ -20,7 +20,7 @@
 
     <div class="bottominfo">
       <button type="button" name="button" class="replacepump btn">Replace pump</button>
-      <button type="button" name="button" class="removebtn btn">Remove from MyPumps</button>
+      <button type="button" name="button" class="removebtn btn" >Remove from MyPumps</button>
     </div>
   </div>
 
