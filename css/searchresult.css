@@ -6,6 +6,7 @@
     grid-template-rows: 1fr;
     border: solid black 1px;
     margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .listresultitem1 {
@@ -54,14 +55,21 @@
     text-align: center;
 }
 
+.listresultmaterialtypesection {
+    margin-left: 5%;
+}
+
 .listresultmaterialtype {
     float: left;
     margin: 3%;
+    margin-top: 5px;
 
 }
 
 .listresultimage {
-    width: 200px;
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .listresultmaterialtypeheader {
@@ -107,6 +115,10 @@
     width: 20px;
     margin-right: 20px;
     margin-left: 0px;
+}
+
+.listresultmarketingcontent {
+    padding: 7px;
 }
 
 .test {
