@@ -50,6 +50,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 
 a, li, p, h1, h2, h3, h4, h5, h6 {
   font-family: "Lucida Grande", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
 }
 
 
