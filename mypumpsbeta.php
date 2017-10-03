@@ -73,7 +73,7 @@
 
 <div class="productElement">
   <div class="productbox">
-    <img src="images/alpha.png" class="leftimg" alt="">
+    <img src="images/alpha.jpg" class="leftimg" alt="">
     <div class="rightinfo">
       <h3>Alpha 1</h3>
       <p>Product nr. <br> 8832312534534</p>
@@ -210,7 +210,7 @@
       </div>
 
       <div class="recommendedObjects">
-        <img src="images/alpha.png" class="img" alt="">
+        <img src="images/alpha.jpg" class="img" alt="">
         <div class="titles">
           <h2>Alpha 3</h2>
           <p>Product nr. <br> 883405338123</p>

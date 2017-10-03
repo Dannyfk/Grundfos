@@ -18,31 +18,21 @@
 </form>
 
         <ul id="pumpUL">
-          <li class="list-pump display-none"><?php include 'listsearchresult/listsearchresult1.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult1.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult2.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult3.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult4.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult5.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult6.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult7.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult8.php'; ?></li>
+          <li class="display-none"><?php include 'listsearchresult/listsearchresult9.php'; ?></li>
         </ul>
 </section>
     </section>
     </section>
-    <script>
-    function searchpump() {
-        // Declare variables
-        var pump = document.getElementById("pumpinput").value;
-        var input, filter, ul, li, a, i;
-        input = document.getElementById('pumpinput');
-        filter = input.value.toUpperCase();
-        ul = document.getElementById("pumpUL");
-        li = ul.getElementsByTagName('li');
+    <script src="js/search.js">
 
-        // Loop through all list items, and hide those who don't match the search query
-        for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("h4")[0];
-            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "block";
-            } else {
-                li[i].style.display = "none";
-            }
-        }
-    }
     </script>
   </body>
 </html>

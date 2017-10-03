@@ -18,37 +18,37 @@
             <div class="test">
               <div class="listresultmaterialtypesection">
                 <div class="listresultmaterialtype">
-                  <a href="...">
+                  <a href="view-material.php">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/imagesicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">Images</h6>
                 </div>
                 <div class="listresultmaterialtype">
-                  <a href="...">
+                  <a href="view-material.php">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/videosicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">Videos</h6>
                 </div>
                 <div class="listresultmaterialtype">
-                  <a href="...">
+                  <a href="view-material.php">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/sellingpointsicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">Selling points</h6>
                 </div>
                 <div class="listresultmaterialtype">
-                  <a href="...">
+                  <a href="view-material.php">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/casestoriesicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">case story</h6>
                 </div>
                 <div class="listresultmaterialtype">
-                  <a href="...">
+                  <a href="view-material.php">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/publicationsicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">Publications</h6>
                 </div>
                 <div class="listresultmaterialtype">
-                  <a href="...">
+                  <a href="view-material.php">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/webbannersicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">Webbaners</h6>
@@ -57,6 +57,8 @@
               </div>
               <div class="listresultbuttonsection">
               <button class="listresultbutton" type="button"><img class="listresultbuttonicon" src="images/downloadzipicon.png"><p class="listresultbuttondownloadtext">DOWNLOAD ZIP<p></button>
-              <button class="listresultbutton" type="button" href="view-material.php"><img class="listresultbuttonicon" src="images/viewmaterialicon.png"><p class="listresultbuttondownloadtext">VIEW MATERIAL<p></button>
+                <a href="view-material.php">
+<button class="listresultbutton" type="button" href="view-material.php"><img class="listresultbuttonicon" src="images/viewmaterialicon.png"><p class="listresultbuttondownloadtext">VIEW MATERIAL<p></button>
+</a>
               </div>
         </section>

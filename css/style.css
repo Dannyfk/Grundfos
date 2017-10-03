@@ -109,12 +109,13 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 #aside li {
   border-top: #ddd 1px solid;
   list-style-type: none;
-  color: #727272;
   padding: 3% 0;
   cursor: pointer;
   font-weight: bold;
   font-size: 13px;
+  color: #727272;
 }
+
 #aside a {
   list-style-type: none;
   color: #727272;
@@ -178,12 +179,20 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
-  margin-top: 50%;
   color: #d0d0d0;
+  margin-top: 50%;
 }
 
 .view-material p {
   margin-top: 3px;
+}
+.view-material .name-pump-material {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin-top: 20%;
+  font-weight: bold;
 }
 
 .view-material button {
@@ -217,13 +226,17 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
 .view-material a {
   grid-column-start: 5;
   grid-column-end: 7;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  margin: 5% 30% 0 0;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 22% 0 -50% -5%;
   width: 100%;
-  color: #272727;
-  font-weight: bold;
+  padding-top: 10px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
   text-decoration: none;
+  background-color: #11497b;
+  border: #d0d0d0 1px solid;
 }
 
 .material-tab {
@@ -358,7 +371,7 @@ img:nth-child(17) {
 }
 
 #tab-images, #tab-film, #tab-casestory, #tab-publications, #tab-webbanners, #tab-sellingpoints {
-  margin-top: -10%;
+  margin-top: -20%;
   grid-column-start: 1;
   grid-column-end: 7;
   grid-row-start: 5;
@@ -484,6 +497,7 @@ img:nth-child(17) {
   text-align: center;
   padding-top: 10px;
   clear: none;
+  margin-bottom: 0;
 }
 
 /*----webbanners tab-----*/
