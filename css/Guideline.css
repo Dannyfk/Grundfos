@@ -1,14 +1,103 @@
 .wrapper {
-    width:100%;
+    width:60%;
+    height: auto;
+    border-right: 1.5px solid darkgrey;
+    border-bottom: 2px solid darkgrey;
+    border-left: 1.5px solid darkgrey;
+    margin:0 auto;
     
+
 }
 
 
-.gridguide {
-    width:80%;
+.gridguide {    
+width:100%;
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 5%;
-background-color:red;
 text-align: center;
+padding-bottom: 5%;
+padding-top: 5%;
+background-color:white;
+
+
+}
+
+.gridguide a { 
+    text-decoration:none;
+    color:black;   
+}
+
+.gridguide div {
+border: 2px solid darkgrey;
+background-color:#D3D3D3;
+width:70%;
+margin: 0 auto;
+
+}
+
+h1 {
+    border-top: 1.5px solid darkgrey;
+    border-bottom: 1.5px solid darkgrey;
+    margin-top:5%;
+    margin-bottom:0; 
+    padding: 2%;
+    font-size:1.5em;
+   
+    
+}
+
+.gridguide p {
+    font-size:1.2em;
+     padding-left:2%;
+     padding-right:2%;
+}
+
+.gridguide h2 {
+     font-size: 1.6em;
+     font-weight: normal;
+     margin: 0 auto;
+     padding-top:2%;
+     padding-bottom:2%;
+
+}
+
+.gridguide img {
+    border-top: 1.5px solid darkgrey;
+    border-bottom: 1.5px solid darkgrey;
+    width:99%;
+    height: auto;
+    margin-top:2%;
+}
+
+
+.fade:hover {
+  opacity: 0.5;
+}
+
+.selection {
+    text-align:center;
+
+}
+
+
+
+.selection h2 {
+    display:inline;
+    position:absolute;
+    
+
+
+}
+
+section ul li {
+    display:inline;
+    padding: 15px;
+
+}
+
+.selection ul li {
+}
+
+.selection img {
+    width:20%;
 }

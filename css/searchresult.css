@@ -5,6 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     border: solid black 1px;
+    margin-top: 50px;
 }
 
 .listresultitem1 {
@@ -91,8 +92,9 @@
 
 .listresultbuttoniconpump {
     height: 30px;
-    margin-top: -1px;
+    margin-top: -3px;
     float: right;
+    border: solid gray 1px;
 }
 
 .listresultbuttonaddpump {
@@ -109,5 +111,4 @@
 
 .test {
     text-align: center;
-
 }
