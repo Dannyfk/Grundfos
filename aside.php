@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="css/style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 <article id="aside">
 <p>Grundfos</p><p>/</p><p>MyGrundfos</p><p>/</p>
 <h3>MyGrundfos</h3>

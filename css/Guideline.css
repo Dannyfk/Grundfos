@@ -75,21 +75,29 @@ h1 {
 }
 
 .selection {
+    text-align:center;
 
 }
 
-.selection ul  {
+
+
+.selection h2 {
     display:inline;
-    list-style:none;
-    display:table;
-    table-layout:fixed;
+    position:absolute;
+    
+
+
+}
+
+section ul li {
+    display:inline;
+    padding: 15px;
+
 }
 
 .selection ul li {
-    display:table cell;
 }
 
 .selection img {
-    width:10%;
-    height: auto;
+    width:20%;
 }

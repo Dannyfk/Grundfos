@@ -11,9 +11,9 @@
 
 <section class="selection">
     <ul>
-        <li> Store <img src="images/store.png"> </li>
-        <li> Social Media <img src="images/social.png"> </li>
-        <li> Webshop <img src="images/webshop.png"> </li>
+        <li> <h2> Store </h2> <img src="images/store.png"> </li>
+        <li> <h2> Social Media </h2> <img src="images/social.png"> </li>
+        <li> <h2> Webshop </h2> <img src="images/webshop.png"> </li>
     </ul>
 
 </section>
