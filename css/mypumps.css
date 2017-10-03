@@ -16,7 +16,6 @@ body {
 
 .myPumpsWrapper {
   position: relative;
-  height: 100%;
   width: 800px;
   border: solid 1px lightgrey;
   background-color: white;
@@ -39,6 +38,7 @@ body {
   font-family: myFirstFont;
   font-size: 20px;
   margin-left: 10px;
+  margin-top: 15px;
 }
 
 .productElement {
@@ -157,6 +157,7 @@ body {
   color: #333333;
   font-family: myFirstFont;
   padding-left: 15px;
+  margin-top: 10px;
 }
 
 .priceBox .leftinfo {

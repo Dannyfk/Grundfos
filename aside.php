@@ -13,7 +13,7 @@
   <li id="marketing-material">Marketing content</li>
   <li class="marketing-extra" style="border-top:none;">Material search</li>
   <li class="marketing-extra" style="border-top:none;">Material guidelines</li>
-  <li>MyPumps</li>
+  <li><a href="mypumps.php">MyPumps</a></li>
 </ul>
 </article>
 <script>
