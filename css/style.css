@@ -69,6 +69,7 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   grid-column-start: 2;
   grid-column-end: 3;
   margin-top: 7%;
+  height: 100%;
 }
 
 #main-content {
