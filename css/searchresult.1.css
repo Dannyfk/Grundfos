@@ -1,0 +1,126 @@
+/* search result list */
+
+.listresult {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: solid black 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listresultitem1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    height: 200px;
+  }
+
+.listresultitem15 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    height: 200px;
+  }
+
+.listresultitem2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    border-left: solid black 1px;
+    
+}
+
+.listresultitem3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    text-align: center;
+}
+
+.listresultitem4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    text-align: center;
+}
+
+.listresultmaterialtypesection {
+    margin-left: 0%;
+}
+
+.listresultmaterialtype {
+    float: left;
+    margin: 2.5%;
+    margin-top: 25px;
+
+}
+
+.listresultimage {
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.listresultmaterialtypeheader {
+    font-size: 1em;
+    background-color: #dfdfdf;
+    width: 100%;
+}
+
+.listresultmaterialtypeicon {
+    width: 50px;
+    text-align: center;
+}
+
+.listresultmaterialtypetext {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.listresultbutton {
+    color: white;
+    background-color: #00497d;
+    border: 0px;
+    width: 200px;
+    font-size: 0.8em;
+    padding: 10px; 
+    height: 35px;
+}
+
+.listresultbuttoniconpump {
+    height: 30px;
+    margin-top: -3px;
+    margin-right: -6px;
+    float: right;
+    border: solid gray 1px;
+}
+
+.listresultbuttonaddpump {
+    width: 200px;
+    background-color: #f5f5f6;
+    height: 35px;
+}
+
+.listresultbuttonicon {
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+}
+
+.listresultmarketingcontent {
+    padding: 7px;
+}
+
+.test {
+    text-align: center;
+}
