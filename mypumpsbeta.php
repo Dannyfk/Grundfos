@@ -37,7 +37,7 @@
 
     <div class="amount">
       <button type="button" class="btn amountbut" name="button">Amount</button>
-      <button type="button" class="btn viewmaterielbut" name="button">Order now</button>
+      <button type="button" class="btn viewmaterielbut" name="button"><img src="images/shoppingcart.png" class="ordernowbut" alt=""></img>Order now</button>
     </div>
 
     <div class="bottominfo">
@@ -98,7 +98,7 @@
 
     <div class="amount">
       <button type="button" class="btn amountbut" name="button">Amount</button>
-      <button type="button" class="btn viewmaterielbut" name="button"><img src="images/materialtypes/casestoriesicon.png" class="ordernowbut" alt=""></img>Order now</button>
+      <button type="button" class="btn viewmaterielbut" name="button"><img src="images/shoppingcart.png" class="ordernowbut" alt=""></img>Order now</button>
     </div>
 
     <div class="bottominfo">
@@ -159,7 +159,7 @@
 
     <div class="amount">
       <button type="button" class="btn amountbut" name="button">Amount</button>
-      <button type="button" class="btn viewmaterielbut" name="button">Order now</button>
+      <button type="button" class="btn viewmaterielbut" name="button"><img src="images/shoppingcart.png" class="ordernowbut" alt=""></img>Order now</button>
     </div>
 
     <div class="bottominfo">
