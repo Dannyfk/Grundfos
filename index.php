@@ -100,6 +100,7 @@
 
     </section>
     </section>
+    <?php include 'footer.php'; ?>
     <script src="js/search.js">
     </script>
   </body>

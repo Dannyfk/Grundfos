@@ -557,3 +557,10 @@ img:nth-child(17) {
   background-color: #fff;
   border: #d0d0d0 1px solid;
 }
+/*---------------------footer----------------*/
+#footer-grundfos {
+  margin: 10% 0 -5px 0;
+  clear: both;
+  width: 100%;
+  height: auto;
+}
