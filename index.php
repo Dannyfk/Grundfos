@@ -60,7 +60,7 @@
 
           <ul id="pumpUL-index">
             <div class="show_hide">
-            <li class="display-none"><a href="view-materiel.php">Alpha</a></li>
+            <li class="display-none"><a href="view-material.php">Alpha</a></li>
             <li class="display-none"><a href="view-material.php">Comfort</a></li>
             <li class="display-none"><a href="view-material.php">Magna3</a></li>
             <li class="display-none"><a href="view-material.php">Alpha2</a></li>
