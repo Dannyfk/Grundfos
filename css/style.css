@@ -145,8 +145,15 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   margin: 5% auto;
   width: 75%;
 }
-
-
+/*----------------------idex---------------------------*/
+#pumpUL-index {
+  background-color: white;
+  border: #d0d0d0 1px solid;
+  z-index: 5;
+}
+#pumpUL-index li{
+  margin: 2% 0 2% 2%;
+}
 /*----------------------View material------------------*/
 
 .view-material {
@@ -538,5 +545,6 @@ img:nth-child(17) {
 }
 .search-for-pump1 #main-content {
   border: 0;
+  background-color: transparent;
   height: 90%;
 }
