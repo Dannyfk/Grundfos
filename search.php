@@ -18,6 +18,7 @@
 </form>
 
         <ul id="pumpUL">
+          <div class="show_hide">
           <li class="display-none"><?php include 'listsearchresult/listsearchresult1.php'; ?></li>
           <li class="display-none"><?php include 'listsearchresult/listsearchresult2.php'; ?></li>
           <li class="display-none"><?php include 'listsearchresult/listsearchresult3.php'; ?></li>
@@ -27,6 +28,7 @@
           <li class="display-none"><?php include 'listsearchresult/listsearchresult7.php'; ?></li>
           <li class="display-none"><?php include 'listsearchresult/listsearchresult8.php'; ?></li>
           <li class="display-none"><?php include 'listsearchresult/listsearchresult9.php'; ?></li>
+        </div>
         </ul>
 </section>
     </section>

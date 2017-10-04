@@ -6,6 +6,19 @@ function searchpump() {
     ul = document.getElementById("pumpUL");
     li = ul.getElementsByTagName('li');
 
+    // Bind keyup event on the input
+$('#pumpUL').keyup(function() {
+
+  // If value is not empty
+  if ($('#pumpinput').val().length == 0) {
+    // Hide the element
+    $('.show_hide').hide();
+  } else {
+    // Otherwise show it
+    $('.show_hide').show();
+  }
+}).keyup(); // Trigger the keyup event, thus running the handler on page load
+
     // Loop through all list items, and hide those who don't match the search query
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("h4")[0];
@@ -15,6 +28,9 @@ function searchpump() {
             li[i].style.display = "none";
         }
     }
+
+
+
 }
 function searchpumpindex() {
     // Declare variables
