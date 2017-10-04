@@ -14,7 +14,7 @@
     <section id="content" class="search-for-pump1">
       <section id="main-content" class="search-for-pump">
         <form>
-  <input type="text" id="pumpinput" onkeyup="searchpump()" placeholder="Search for pump"> <img src="images/search-btn.png" class="search-btn" alt="btn">
+  <input type="text" autocomplete="off" id="pumpinput" onkeyup="searchpump()" placeholder="Search for pump"> <img src="images/search-btn.png" class="search-btn" alt="btn">
 </form>
 
         <ul id="pumpUL">

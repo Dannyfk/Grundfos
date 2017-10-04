@@ -5,6 +5,7 @@ function searchpump() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("pumpUL");
     li = ul.getElementsByTagName('li');
+    $(this).find(":selected").hide();
 
     // Bind keyup event on the input
 $('#pumpUL').keyup(function() {
