@@ -5,7 +5,6 @@ function searchpump() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("pumpUL");
     li = ul.getElementsByTagName('li');
-    $(this).find(":selected").hide();
 
     // Bind keyup event on the input
 $('#pumpUL').keyup(function() {
@@ -38,6 +37,7 @@ function searchpumpindex() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("pumpUL-index");
     li = ul.getElementsByTagName('li');
+
     $('#pumpUL-index').keyup(function() {
 
       // If value is not empty
@@ -54,10 +54,8 @@ function searchpumpindex() {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "block";
-            ul.style.display = "block";
         } else {
             li[i].style.display = "none";
-            ul.style.display = "none";
         }
     }
 }

@@ -52,20 +52,26 @@
         <div class="content">
           <p>Search by product number or name</p>
           <div id="searchBorder">
-          <input class="search" type="text" name="firstname" onkeyup="searchpumpindex()" id="input-search-index">
+
+            <form>
+          <input class="search" autocomplete="off" type="text" name="firstname" onkeyup="searchpumpindex()" id="input-search-index">
+          </form>
           <img src="images/modules/search.jpg" id="searchicon" alt="">
-          <ul id="pumpUL-index" class="display-none">
-            <li class="show_hide"><a href="view-material.php">Alpha3</a></li>
-            <li class="show_hide"><a href="view-material.php">CMB PM2</a></li>
-            <li class="show_hide"><a href="view-material.php">Comfort</a></li>
-            <li class="show_hide"><a href="view-material.php">Magna3</a></li>
-            <li class="show_hide"><a href="view-material.php">Alpha2</a></li>
-            <li class="show_hide"><a href="view-material.php">CMBE</a></li>
-            <li class="show_hide"><a href="view-material.php">SOLOLIFT2</a></li>
-            <li class="show_hide"><a href="view-material.php">SQE</a></li>
-            <li class="show_hide"><a href="view-material.php">UNILIFT KP</a></li>
-            <li class="show_hide"><a href="view-material.php">SCALA2</a></li>
+
+          <ul id="pumpUL-index">
+            <div class="show_hide">
+            <li class="display-none"><a href="view-materiel.php">Alpha</a></li>
+            <li class="display-none"><a href="view-material.php">Comfort</a></li>
+            <li class="display-none"><a href="view-material.php">Magna3</a></li>
+            <li class="display-none"><a href="view-material.php">Alpha2</a></li>
+            <li class="display-none"><a href="view-material.php">CMBE</a></li>
+            <li class="display-none"><a href="view-material.php">SOLOLIFT2</a></li>
+            <li class="display-none"><a href="view-material.php">SQE</a></li>
+            <li class="display-none"><a href="view-material.php">UNILIFT KP</a></li>
+            <li class="display-none"><a href="view-material.php">SCALA2</a></li>
+          </div>
           </ul>
+
           </div>
         </div>
       </div>
