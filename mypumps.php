@@ -13,5 +13,6 @@
         <?php include 'mypumpsbeta.php' ?>
     </section>
     </section>
+    <?php include 'footer.php'; ?>
   </body>
 </html>
