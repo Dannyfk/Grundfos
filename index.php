@@ -32,9 +32,7 @@
           <div id="border">
             <div id="leftBut"><a href="http://uk.grundfos.com/my-grundfos/replace-pump.html?_charset_=UTF-8&searchstring=ALLWEILER%2C%20Alpha%2B%2015-40"><p>INFORMATION</p></a></div>
           </div>
-
             <a href="#" id="showmessage">Do not show again</a>
-
         </div>
 
         <div id="left">
@@ -54,8 +52,26 @@
         <div class="content">
           <p>Search by product number or name</p>
           <div id="searchBorder">
-          <input class="search" type="text" name="firstname">
+          <input class="search" type="text" name="firstname" onkeyup="searchpumpindex()" id="input-search-index">
           <img src="images/modules/search.jpg" id="searchicon" alt="">
+          <ul id="pumpUL-index" class="display-none">
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+            <li><a href="view-material.php"> Alpha3</a></li>
+          </ul>
           </div>
         </div>
       </div>
@@ -90,5 +106,7 @@
 
     </section>
     </section>
+    <script src="js/search.js">
+    </script>
   </body>
 </html>
