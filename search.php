@@ -11,7 +11,7 @@
     <img src="images/header.png" alt="header" id="header-grundfos">
     <section id="wrapper-content">
     <?php include 'aside.php'; ?>
-    <section id="content" >
+    <section id="content" class="search-for-pump1">
       <section id="main-content" class="search-for-pump">
         <form>
   <input type="text" id="pumpinput" onkeyup="searchpump()" placeholder="Search for pump"> <img src="images/search-btn.png" class="search-btn" alt="btn">
