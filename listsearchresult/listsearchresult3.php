@@ -43,15 +43,15 @@
       </div>
       <div class="listresultmaterialtype">
         <a href="view-material.php">
-          <img class="listresultmaterialtypeicon" src="images/materialtypes/publicationsicon.png">
+          <img class="listresultmaterialtypeicon iconfalse" src="images/materialtypes/publicationsicon.png">
         </a>
-        <h6 class="listresultmaterialtypetext">Publications</h6>
+        <h6 class="listresultmaterialtypetext iconfalse">Publications</h6>
       </div>
       <div class="listresultmaterialtype">
         <a href="view-material.php">
-          <img class="listresultmaterialtypeicon" src="images/materialtypes/webbannersicon.png">
+          <img class="listresultmaterialtypeicon iconfalse" src="images/materialtypes/webbannersicon.png">
         </a>
-        <h6 class="listresultmaterialtypetext">Webbaners</h6>
+        <h6 class="listresultmaterialtypetext iconfalse">Webbaners</h6>
       </div>
       </div>
     </div>
