@@ -513,8 +513,8 @@ img:nth-child(17) {
 
 /*----------------------------------search----------------------*/
 .search-for-pump input{
-  width: 734px;
-  padding-left: 20px;
+  width: 92.8%;
+  padding-left: 7%;
   height: 40px;
   background-color: #f5f5f5;
   color: grey;
@@ -527,6 +527,7 @@ img:nth-child(17) {
   border: #d0d0d0 1px solid
 }
 .search-for-pump .search-btn {
+  position: absolute;
   width: 40px;
   float: left;
   min-height: 42px;
