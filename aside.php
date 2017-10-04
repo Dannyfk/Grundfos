@@ -1,6 +1,6 @@
 <article id="aside">
 <p>Grundfos</p><p>/</p><p>MyGrundfos</p><p>/</p>
-<h3>MyGrundfos</h3>
+</a><h3>MyGrundfos</h3>
 <ul id="ul-dashboard"><li><a href="index.php">Dashboard</a></li></ul>
 <h3>Tools</h3>
 <ul>
