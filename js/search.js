@@ -29,10 +29,8 @@ $('#pumpUL').keyup(function() {
             li[i].style.display = "none";
         }
     }
-
-
-
 }
+
 function searchpumpindex() {
     // Declare variables
     var input, filter, ul, li, a, i;
@@ -40,11 +38,21 @@ function searchpumpindex() {
     filter = input.value.toUpperCase();
     ul = document.getElementById("pumpUL-index");
     li = ul.getElementsByTagName('li');
+    $('#pumpUL-index').keyup(function() {
 
+      // If value is not empty
+      if ($('#input-search-index').val().length == 0) {
+        // Hide the element
+        $('.show_hide').hide();
+      } else {
+        // Otherwise show it
+        $('.show_hide').show();
+      }
+    }).keyup(); // Trigger the keyup event, thus running the handler on page load
     // Loop through all list items, and hide those who don't match the search query
-    for (i = 1; i < li.length; i++) {
+    for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > 0) {
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "block";
             ul.style.display = "block";
         } else {
