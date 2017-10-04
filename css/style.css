@@ -527,6 +527,7 @@ img:nth-child(17) {
   color: grey;
   float: right;
   border: #d0d0d0 1px solid;
+  margin-top: -2px;
 }
 .search-for-pump input:focus{
   background-color: darkgrey;
@@ -538,7 +539,8 @@ img:nth-child(17) {
   width: 40px;
   float: left;
   min-height: 42px;
-  border: #d0d0d0 1px solid
+  border: #d0d0d0 1px solid;
+  margin-top: -2px;
 }
 .display-none {
   display: none;
@@ -547,4 +549,11 @@ img:nth-child(17) {
   border: 0;
   background-color: transparent;
   height: 90%;
+}
+.search-for-pump h2 {
+  padding: 2% 1%;
+  font-weight: bold;
+  color: #333333;
+  background-color: #fff;
+  border: #d0d0d0 1px solid;
 }

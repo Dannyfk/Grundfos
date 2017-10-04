@@ -13,6 +13,7 @@
     <?php include 'aside.php'; ?>
     <section id="content" class="search-for-pump1">
       <section id="main-content" class="search-for-pump">
+        <h2>Search for pumpname to get marketing materials</h2>
         <form>
   <input type="text" autocomplete="off" id="pumpinput" onkeyup="searchpump()" placeholder="Search for pump"> <img src="images/search-btn.png" class="search-btn" alt="btn">
 </form>
