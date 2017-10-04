@@ -85,8 +85,9 @@
           </section>
     </section>
     </section>
-    <?php include 'footer.php'; ?>
+  </section>
     <script src="js/viewmaterial.js">
 </script>
+<?php include 'footer.php'; ?>
   </body>
 </html>

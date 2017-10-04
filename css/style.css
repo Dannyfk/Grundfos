@@ -169,6 +169,7 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   grid-row-start: 1;
   grid-row-end: 3;
   width: 60%;
+  height: 60%;
   margin-top: 5%;
   margin-left: 10%;
 }
@@ -439,6 +440,7 @@ img:nth-child(17) {
   margin: 3.5%;
   float: left;
   cursor: pointer;
+  height: auto;
 }
 
 
@@ -569,4 +571,5 @@ img:nth-child(17) {
   clear: both;
   width: 100%;
   height: auto;
+  
 }
