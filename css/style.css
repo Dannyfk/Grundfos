@@ -513,11 +513,12 @@ img:nth-child(17) {
 
 /*----------------------------------search----------------------*/
 .search-for-pump input{
-  width: 736px;
+  width: 734px;
   padding-left: 20px;
   height: 40px;
   background-color: #f5f5f5;
   color: grey;
+  float: right;
   border: #d0d0d0 1px solid;
 }
 .search-for-pump input:focus{
