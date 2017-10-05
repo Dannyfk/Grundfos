@@ -60,15 +60,15 @@
 
           <ul id="pumpUL-index">
             <div class="show_hide">
-            <li class="display-none"><a href="view-material.php">Alpha</a></li>
-            <li class="display-none"><a href="view-material.php">Comfort</a></li>
-            <li class="display-none"><a href="view-material.php">Magna3</a></li>
-            <li class="display-none"><a href="view-material.php">Alpha2</a></li>
-            <li class="display-none"><a href="view-material.php">CMBE</a></li>
-            <li class="display-none"><a href="view-material.php">SOLOLIFT2</a></li>
-            <li class="display-none"><a href="view-material.php">SQE</a></li>
-            <li class="display-none"><a href="view-material.php">UNILIFT KP</a></li>
-            <li class="display-none"><a href="view-material.php">SCALA2</a></li>
+            <li class="display-none"><a href="view-material">Alpha</a></li>
+            <li class="display-none"><a href="view-material">Comfort</a></li>
+            <li class="display-none"><a href="view-material">Magna3</a></li>
+            <li class="display-none"><a href="view-material">Alpha2</a></li>
+            <li class="display-none"><a href="view-material">CMBE</a></li>
+            <li class="display-none"><a href="view-material">SOLOLIFT2</a></li>
+            <li class="display-none"><a href="view-material">SQE</a></li>
+            <li class="display-none"><a href="view-material">UNILIFT KP</a></li>
+            <li class="display-none"><a href="view-material">SCALA2</a></li>
           </div>
           </ul>
 
