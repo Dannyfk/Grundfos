@@ -18,7 +18,7 @@
             <div class="test">
               <div class="listresultmaterialtypesection">
                 <div class="listresultmaterialtype">
-                  <a href="view-material.php">
+                  <a href="view-material">
                     <img class="listresultmaterialtypeicon" src="images/materialtypes/imagesicon.png">
                   </a>
                   <h6 class="listresultmaterialtypetext">Images</h6>
