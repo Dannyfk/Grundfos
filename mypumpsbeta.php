@@ -55,6 +55,7 @@
 
     <div class="elementBox">
       <a href="#"><img src="images/materialtypes/imagesicon.png" class="elementobject" alt=""></a>
+
       <a href="#"><img src="images/materialtypes/videosicon.png" class="elementobject" alt=""></a>
       <a href="#"><img src="images/materialtypes/sellingpointsicon.png" class="elementobject" alt=""></a>
       <a href="#"><img src="images/materialtypes/casestoriesicon.png" class="elementobject" alt=""></a>

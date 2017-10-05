@@ -5,12 +5,12 @@
     border-bottom: 2px solid darkgrey;
     border-left: 1.5px solid darkgrey;
     margin: 0 auto;
-    
+
 
 }
 
 
-.gridguide {    
+.gridguide {
 width:100%;
 display:grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -22,9 +22,9 @@ background-color:white;
 
 }
 
-.gridguide a { 
+.gridguide a {
     text-decoration:none;
-    color:black;   
+    color:black;
 }
 
 .gridguide div {
@@ -39,12 +39,12 @@ h1 {
     border-top: 1.5px solid darkgrey;
     border-bottom: 1.5px solid darkgrey;
     margin-top:5%;
-    margin-bottom:0; 
+    margin-bottom:0;
     padding: 2%;
     font-size:1.5em;
     background-color: #D3D3D3;
-   
-    
+
+
 }
 
 .gridguide p {
@@ -77,7 +77,7 @@ h1 {
 /* Menu-selector */
 
 .selectionhide {
-    
+
 }
 
 .selection {
@@ -102,38 +102,38 @@ h1 {
 }
 
 .selection h2:nth-child(1) {
-    
+
     grid-column-start:1;
     grid-column-end:2;
-    
+
 }
 .selection h2:nth-child(2) {
-    
+
     grid-column-start:2;
     grid-column-end:3;
-    
+
 }
 .selection h2:nth-child(3) {
-    
+
     grid-column-start:3;
     grid-column-end:4;
-    
+
 }
 
 .selection img:nth-child(4) {
     grid-column-start:1;
     grid-column-end:2;
-    
+
 }
 .selection img:nth-child(5) {
     grid-column-start:2;
     grid-column-end:3;
-    
+
 }
 .selection img:nth-child(6) {
     grid-column-start:3;
     grid-column-end:4;
-    
+
 }
 
 
@@ -144,7 +144,7 @@ h1 {
     width:100%;
     margin-top:-40%;
     opacity:0.5;
-    
+
 }
 .selection h2 {
 height: 37%;
@@ -169,17 +169,17 @@ border-right:1px solid black;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color:#DEDEDE;
-   
+
     border-bottom: 0.5px solid darkgrey;
     overflow:hidden;
     height: 0px;
     transition-timing-function: ease-out;
     transition: height 0.7s;
-    
+
 }
 
 .guides div p {
-     padding:25px;      
+     padding:25px;
 }
 
 .guides img {
@@ -197,7 +197,7 @@ border-right:1px solid black;
     box-shadow: 0px 12px 22px 1px #333;
     z-index:1;
     opacity:1 !important;
-    transition:0.5s; 
+    transition:0.5s;
 
 }
 .siblings{
