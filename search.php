@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>MyGrundfos Marketing Content - Search</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/searchresult.1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
