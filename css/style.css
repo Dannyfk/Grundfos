@@ -540,3 +540,8 @@ img:nth-child(17) {
   border: 0;
   height: 90%;
 }
+
+.img-fluid {
+  width:800px !important;
+  height: 423px !important;
+}
