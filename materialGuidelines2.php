@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>MyGrundfos Marketing Content - Material Guidelines</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Guideline.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -11,7 +11,7 @@
     <section id="wrapper-content">
     <?php include 'aside.php'; ?>
     <section id="content" >
-    
+
 
 
 
@@ -23,42 +23,42 @@
 
 <section class="gridguide">
     <div class="fade">
-        
+
         <h2> Store </h2>
         <img src="images/store.png" data-id="storeselect">
         <p> Hvordan i kan anvende vores materiale i jeres butik   </p>
-        
-    </div>
-    
-    <div class="fade">
-        
-        <h2> Social Media </h2>
-        <img src="images/social.png" data-id="socialselect">
-        <p> Hvordan i kan markedsføre på de sociale medier </p>
-        
+
     </div>
 
     <div class="fade">
-        
+
+        <h2> Social Media </h2>
+        <img src="images/social.png" data-id="socialselect">
+        <p> Hvordan i kan markedsføre på de sociale medier </p>
+
+    </div>
+
+    <div class="fade">
+
         <h2> Webshop </h2>
         <img src="images/webshop.png" data-id="webshopselect">
         <p> Til jer med en webshop, der vil sælge online </p>
-        
+
     </div>
-    
+
 </section>
 
 
 
 <section class="selection">
-    
-         <h2> Store </h2> 
-         <h2> Social Media </h2> 
-         <h2> Webshop </h2> 
+
+         <h2> Store </h2>
+         <h2> Social Media </h2>
+         <h2> Webshop </h2>
          <img data-id="storeselect" src="images/store.png">
-         <img data-id="socialselect" src="images/social.png"> 
-         <img data-id="webshopselect" src="images/webshop.png"> 
-    
+         <img data-id="socialselect" src="images/social.png">
+         <img data-id="webshopselect" src="images/webshop.png">
+
 
 </section>
 
@@ -70,7 +70,7 @@
   <label for="toggle1"> Images</label><span src="images/materialtypes/imagesicon.png"></span>
 
     <div class="images1">
-        
+
         <p> Lorem dolor sit amet, consectetur adipiscing elit. Etiam tortor leo, viverra et euismod ut, vestibulum nec odio. Nulla facilisi. Vivamus in ex pretium tortor eleifend vulputate. Maecenas et venenatis nisi. Nulla ultrices vitae lorem nec euismod. Fusce scelerisque velit libero, id porta velit ultricies vitae. </p>
         <img src="images/store.png">
         <img src="images/social.png">
@@ -108,12 +108,12 @@
 
     </div>
 
-    
+
 
 
 </section>
 
-<!-- <<<<<Social>>>>> --> 
+<!-- <<<<<Social>>>>> -->
 
 <section class="guides" id="socialselect">
 
@@ -159,7 +159,7 @@
 
     </div>
 
-    
+
 
 
 </section>
@@ -210,7 +210,7 @@
 
     </div>
 
-    
+
 
 
 </section>
@@ -230,5 +230,6 @@
       </section>
     </section>
     </section>
+    <?php include 'footer.php'; ?>
   </body>
 </html>

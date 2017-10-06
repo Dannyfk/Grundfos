@@ -145,8 +145,15 @@ a, li, p, h1, h2, h3, h4, h5, h6 {
   margin: 5% auto;
   width: 75%;
 }
-
-
+/*----------------------idex---------------------------*/
+#pumpUL-index {
+  background-color: white;
+  border: #d0d0d0 1px solid;
+  z-index: 5;
+}
+#pumpUL-index li{
+  margin: 2% 0 2% 2%;
+}
 /*----------------------View material------------------*/
 
 .view-material {
@@ -296,6 +303,7 @@ img:nth-child(12) {
   grid-row-start: 3;
   grid-row-end: 4;
   width: 30px;
+  height: 30px;
   margin-top: 9px;
   margin-left: 51.5px;
   cursor: pointer;
@@ -307,6 +315,7 @@ img:nth-child(13) {
   grid-row-start: 3;
   grid-row-end: 4;
   width: 30px;
+  height: 30px;
   margin-top: 9px;
   margin-left: 51.5px;
   cursor: pointer;
@@ -318,6 +327,7 @@ img:nth-child(14) {
   grid-row-start: 3;
   grid-row-end: 4;
   width: 30px;
+  height: 30px;
   margin-top: 9px;
   margin-left: 51.5px;
   cursor: pointer;
@@ -329,6 +339,7 @@ img:nth-child(15) {
   grid-row-start: 3;
   grid-row-end: 4;
   width: 30px;
+  height: 30px;
   margin-top: 9px;
   margin-left: 51.5px;
   cursor: pointer;
@@ -340,6 +351,7 @@ img:nth-child(16) {
   grid-row-start: 3;
   grid-row-end: 4;
   width: 30px;
+  height: 30px;
   margin-top: 9px;
   margin-left: 51.5px;
   cursor: pointer;
@@ -351,6 +363,7 @@ img:nth-child(17) {
   grid-row-start: 3;
   grid-row-end: 4;
   width: 30px;
+  height: 30px;
   margin-top: 9px;
   margin-left: 51.5px;
   cursor: pointer;
@@ -520,6 +533,7 @@ img:nth-child(17) {
   color: grey;
   float: right;
   border: #d0d0d0 1px solid;
+  margin-top: -2px;
 }
 .search-for-pump input:focus{
   background-color: darkgrey;
@@ -531,17 +545,37 @@ img:nth-child(17) {
   width: 40px;
   float: left;
   min-height: 42px;
-  border: #d0d0d0 1px solid
+  border: #d0d0d0 1px solid;
+  margin-top: -2px;
 }
 .display-none {
   display: none;
 }
 .search-for-pump1 #main-content {
   border: 0;
+  background-color: transparent;
   height: 90%;
 }
+<<<<<<< HEAD
 
 .img-fluid {
   width:800px !important;
   height: 423px !important;
 }
+=======
+.search-for-pump h2 {
+  padding: 2% 1%;
+  font-weight: bold;
+  color: #333333;
+  background-color: #fff;
+  border: #d0d0d0 1px solid;
+}
+/*---------------------footer----------------*/
+#footer-grundfos {
+  margin: 20% 0 -5px 0;
+  clear: both;
+  width: 100%;
+  height: auto;
+
+}
+>>>>>>> 1bf0de194f1f28b123745533736a28a5aa1fab68
