@@ -556,6 +556,13 @@ img:nth-child(17) {
   background-color: transparent;
   height: 90%;
 }
+
+
+.img-fluid {
+  width:800px !important;
+  height: 423px !important;
+}
+
 .search-for-pump h2 {
   padding: 2% 1%;
   font-weight: bold;
@@ -571,3 +578,4 @@ img:nth-child(17) {
   height: auto;
 
 }
+

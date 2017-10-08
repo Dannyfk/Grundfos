@@ -30,6 +30,8 @@ $('#pumpUL').keyup(function() {
     }
 }
 
+
+
 function searchpumpindex() {
     // Declare variables
     var input, filter, ul, li, a, i;
@@ -59,3 +61,4 @@ function searchpumpindex() {
         }
     }
 }
+

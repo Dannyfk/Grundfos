@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>MyGrundfos Marketing Content - Material Guidelines</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/Guideline.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

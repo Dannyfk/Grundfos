@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>MyPumps | Grundfos3</title>
+    <title>MyGrundfos MyPumps</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mypumps.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
