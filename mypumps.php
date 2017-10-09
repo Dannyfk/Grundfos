@@ -207,7 +207,7 @@
           <img src="images/magna3.png" class="img" alt="">
           <div class="titles">
             <h2>Magna 2</h2>
-            <p>Product nr. <br> 123409138123</p>
+            <p>Product nr. <br> 12340913</p>
           </div>
           <div class="buttons">
             <button type="button" class="viewproduct" name="button">View product</button>
@@ -219,7 +219,7 @@
           <img src="images/alpha.jpg" class="img" alt="">
           <div class="titles">
             <h2>Alpha 3</h2>
-            <p>Product nr. <br> 883405338123</p>
+            <p>Product nr. <br> 88340533</p>
           </div>
           <div class="buttons">
             <button type="button" class="viewproduct" name="button">View product</button>
@@ -231,7 +231,7 @@
           <img src="images/alpha1.png" class="img" alt="">
           <div class="titles">
             <h2>CMB-PM2</h2>
-            <p>Product nr. <br> 673909138123</p>
+            <p>Product nr. <br> 67338123</p>
           </div>
           <div class="buttons">
             <button type="button" class="viewproduct" name="button">View product</button>
